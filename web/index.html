@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Torchlight</title>
+        <script src="angular.min.js"></script>
+        <script src="indexctrl.js"></script>
+        <link rel="stylesheet" type="text/css" href="indexstyle.css"></link>
+    </head>
+
+    <body>
+        <div ng-app="timingApp">
+            <div ng-controller="graphDisp" class="container">
+                <div ng-repeat="(k, v) in types" class="lBar" ng-style="lBarStyle(v)">
+                    {{k}}
+                </div>
+                <div ng-repeat="g in graph" ng-class="g.type" ng-style="getStyle(g)" ng-click="showDesc(g.desc,g.link,$event)">
+                    {{g.name}}
+                </div>
+                <label>Zoom: <input type="text" ng-model="scl"></input></label>
+                <button ng-click="scl = scl + 5">+</button>
+                <button ng-click="scl = scl - 5">-</button>
+                <div id="desc" ng-style="descStyle">
+                    {{currDesc}}
+                    <a ng-href="currLink">Click for details.</a>
+                    <button ng-click="hideDesc()">Close</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
