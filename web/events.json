@@ -1,0 +1,114 @@
+[
+  {
+    "type":"class LA",
+    "time":2,
+    "desc":"Your mandated English (LA) class.",
+    "link":"",
+    "name":"LA1",
+    "duration": 10
+  },
+  {
+    "type": "class Math",
+    "time": 2,
+    "desc": "The mandated math course.",
+    "link": "",
+    "name": "Geometry",
+    "duration": 10
+  },
+  {
+    "type": "class Science",
+    "time": 2,
+    "desc": "A possible science course - likely biology.",
+    "link": "",
+    "name": "Biology",
+    "duration": 10
+  },
+  {
+    "type": "class History",
+    "time": 2,
+    "desc": "A possible history course - likely World History.",
+    "link": "",
+    "name": "World History",
+    "duration": 10
+  },
+  {
+    "type": "class Wrld Lang",
+    "time": 2,
+    "desc": "A world langauges course",
+    "link": "",
+    "name": "World langauge",
+    "duration": 10
+  },
+  {
+    "type": "class elective",
+    "time": 2,
+    "desc": "Any elective you would take.",
+    "link": "",
+    "name": "Elective",
+    "duration": 10
+  },
+  {
+    "type": "test",
+    "time": 8,
+    "desc": "A trivial biology test. Taken in March.",
+    "link": "",
+    "name": "Biology EOC Test",
+    "duration": 1
+  },
+  {
+    "type": "extracurricular 1",
+    "time": 2,
+    "desc": "You should explore some clubs, but focus on studies. Try to find your interests.",
+    "link": "",
+    "name": "Possible Clubs",
+    "duration": 10
+  },
+  {
+    "type": "class LA",
+    "time": 14,
+    "desc": "Mandated LA course",
+    "link": "",
+    "name": "LA2",
+    "duration": 10
+  },
+  {
+    "type": "grade level",
+    "time": 2,
+    "desc": "Your freshman year.",
+    "link": "",
+    "name": "Freshman year",
+    "duration": 10
+  },
+  {
+    "type": "grade level",
+    "time": 14,
+    "desc": "Your sophomore year.",
+    "link": "",
+    "name": "Sophomore year",
+    "duration": 10
+  },
+  {
+    "type": "grade level",
+    "time": 26,
+    "desc": "Your junior year.",
+    "link": "",
+    "name": "Junior year",
+    "duration": 10
+  },
+  {
+    "type": "grade level",
+    "time": 38,
+    "desc": "Your senior year.",
+    "link": "",
+    "name": "Senior year",
+    "duration": 10
+  },
+  {
+    "type": "class elective",
+    "time": 12,
+    "duration": 2,
+    "name": "summer course",
+    "desc": "A possible summer course.",
+    "link":""
+  }
+]
