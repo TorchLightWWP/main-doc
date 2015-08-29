@@ -16,7 +16,7 @@ typeCoordinate = {
 };
 
 xOffset = 100;
-yOffset = 50;
+yOffset = 75;
 
 app.controller('graphDisp',function($scope, $http){
   $http.get('events.json').success(function(graph){
