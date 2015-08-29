@@ -35,6 +35,17 @@
   background-color: orange;
 }
 
+.competition{
+  border: 3px solid black;
+  background-color: maroon;
+  color: blue;
+}
+
+.college{
+  border: 3px solid black;
+  background-color: magenta;
+}
+
 #desc{
   border: 5px solid black;
   background-color: cyan;

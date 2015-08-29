@@ -34,9 +34,9 @@
   {
     "type": "class Wrld Lang",
     "time": 2,
-    "desc": "A world langauges course",
+    "desc": "A world languages course",
     "link": "",
-    "name": "World langauge",
+    "name": "World language",
     "duration": 10
   },
   {
@@ -64,12 +64,12 @@
     "duration": 10
   },
   {
-    "type": "class LA",
-    "time": 14,
-    "desc": "Mandated LA course",
-    "link": "",
-    "name": "LA2",
-    "duration": 10
+    "type": "class elective",
+    "time": 12,
+    "duration": 2,
+    "name": "summer course",
+    "desc": "A possible summer course.",
+    "link":""
   },
   {
     "type": "grade level",
@@ -80,12 +80,180 @@
     "duration": 10
   },
   {
+    "type": "class LA",
+    "time": 14,
+    "desc": "Mandated LA course",
+    "link": "",
+    "name": "LA2",
+    "duration": 10
+  },
+  {
+    "type": "class Math",
+    "time": 14,
+    "desc": "Mandated math class.",
+    "link": "",
+    "name": "Algebra II",
+    "duration": 10
+  },
+  {
+    "type": "class Science",
+    "time": 14,
+    "desc": "A possible science course - likely chemistry.",
+    "link": "",
+    "name": "Chemistry",
+    "duration": 10
+  },
+  {
+    "type": "class History",
+    "time": 14,
+    "desc": "A possible history course - likely AS1.",
+    "link": "",
+    "name": "AS1",
+    "duration": 10
+  },
+  {
+    "type": "class Wrld Lang",
+    "time": 14,
+    "desc": "A world languages course",
+    "link": "",
+    "name": "World language",
+    "duration": 10
+  },
+  {
+    "type": "class elective",
+    "time": 14,
+    "desc": "Any elective you would take.",
+    "link": "",
+    "name": "Elective",
+    "duration": 10
+  },
+  {
+    "type": "extracurricular 1",
+    "time": 14,
+    "desc": "Get more involved in clubs you like.",
+    "link": "",
+    "name": "Club involvement.",
+    "duration": 10
+  },
+  {
+    "type": "extracurricular 2",
+    "time": 14,
+    "desc": "Find volunteering opportunities and participate.",
+    "link": "",
+    "name": "Volunteering",
+    "duration": 28
+  },
+  {
+    "type": "test",
+    "time": 20,
+    "desc": "Study for and take standardized tests.",
+    "link": "",
+    "name": "Standardized tests",
+    "duration": 20
+  },
+  {
+    "type": "competition",
+    "time": 17,
+    "desc": "Start partaking in a few competitions. Begin representing the school.",
+    "link": "",
+    "name": "Starting competitions",
+    "duration": 9
+  },
+  {
     "type": "grade level",
     "time": 14,
     "desc": "Your sophomore year.",
     "link": "",
     "name": "Sophomore year",
     "duration": 10
+  },
+  {
+    "type": "class LA",
+    "time": 26,
+    "desc": "Mandated LA course",
+    "link": "",
+    "name": "LA3 (or AP)",
+    "duration": 10
+  },
+  {
+    "type": "class Math",
+    "time": 26,
+    "desc": "Mandated math class.",
+    "link": "",
+    "name": "Precalculus.",
+    "duration": 10
+  },
+  {
+    "type": "class Science",
+    "time": 26,
+    "desc": "A possible science course - likely physics.",
+    "link": "",
+    "name": "Physics",
+    "duration": 10
+  },
+  {
+    "type": "class History",
+    "time": 26,
+    "desc": "A possible history course - likely AS2 or AP US.",
+    "link": "",
+    "name": "AS 2 (or AP)",
+    "duration": 10
+  },
+  {
+    "type": "class Wrld Lang",
+    "time": 26,
+    "desc": "A world languages course (maybe AP)",
+    "link": "",
+    "name": "World language",
+    "duration": 10
+  },
+  {
+    "type": "class elective",
+    "time": 26,
+    "desc": "Any elective you would take.",
+    "link": "",
+    "name": "Elective",
+    "duration": 10
+  },
+  {
+    "type": "extracurricular 1",
+    "time": 26,
+    "desc": "Lead a club or be close to the leadership. Lead during senior year.",
+    "link": "",
+    "name": "Lead a club",
+    "duration": 22
+  },
+  {
+    "type": "competition",
+    "time": 26,
+    "desc": "Begin to win competitions.",
+    "link": "",
+    "name": "Start Winning",
+    "duration": 16
+  },
+  {
+    "type": "college app",
+    "time": 26,
+    "desc": "Compile a list of intersting colleges. Shorten this to around 10.",
+    "link": "",
+    "name": "List Colleges",
+    "duration": 6
+  },
+  {
+    "type": "college app",
+    "time": 32,
+    "desc": "Ask the relevant people for recommendations.",
+    "link": "",
+    "name": "Ask for Recommendations",
+    "duration": 4
+  },
+  {
+    "type": "college app",
+    "time": 36,
+    "desc": "Work on college apps. Submit all by the end of this (Dec. of senior year).",
+    "link": "",
+    "name": "Apply to college",
+    "duration": 6
   },
   {
     "type": "grade level",
@@ -96,19 +264,83 @@
     "duration": 10
   },
   {
+    "type": "class LA",
+    "time": 38,
+    "desc": "Mandated LA course",
+    "link": "",
+    "name": "LA4 (or AP)",
+    "duration": 10
+  },
+  {
+    "type": "class Math",
+    "time": 38,
+    "desc": "Mandated math class.",
+    "link": "",
+    "name": "Calculus.",
+    "duration": 10
+  },
+  {
+    "type": "class Science",
+    "time": 38,
+    "desc": "A possible science course - maybe an elective.",
+    "link": "",
+    "name": "Elective",
+    "duration": 10
+  },
+  {
+    "type": "class History",
+    "time": 38,
+    "desc": "AP government or AP European History or some other elective.",
+    "link": "",
+    "name": "Social Studies",
+    "duration": 10
+  },
+  {
+    "type": "class Wrld Lang",
+    "time": 38,
+    "desc": "A world languages course (maybe AP)",
+    "link": "",
+    "name": "World language",
+    "duration": 10
+  },
+  {
+    "type": "class elective",
+    "time": 38,
+    "desc": "Any elective you would take.",
+    "link": "",
+    "name": "Elective",
+    "duration": 10
+  },
+  {
+    "type": "test",
+    "time": 46,
+    "desc": "A few AP tests.",
+    "link": "",
+    "name": "AP",
+    "duration": 1
+  },
+  {
+    "type": "college app",
+    "time": 43,
+    "desc": "Applications for aid and certain grants are separate.",
+    "link": "",
+    "name": "Apply for aid/grants.",
+    "duration": 3
+  },
+  {
+    "type": "college app",
+    "time": 46,
+    "desc": "Decide on a college and begin their processes.",
+    "link": "",
+    "name": "Chose a College",
+    "duration": 1
+  },
+  {
     "type": "grade level",
     "time": 38,
     "desc": "Your senior year.",
     "link": "",
     "name": "Senior year",
     "duration": 10
-  },
-  {
-    "type": "class elective",
-    "time": 12,
-    "duration": 2,
-    "name": "summer course",
-    "desc": "A possible summer course.",
-    "link":""
   }
 ]

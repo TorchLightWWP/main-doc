@@ -23,7 +23,7 @@ app.controller('graphDisp',function($scope, $http){
 
     //graph = JSON.parse(gr.data);
 
-    $scope.scl = 25;
+    $scope.scl = 45;
 
     $scope.graph = graph;
     $scope.types = typeCoordinate;
