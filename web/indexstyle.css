@@ -11,8 +11,8 @@
 }
 
 .container > div:hover{
-  background-color: blue;
-  color: yellow;
+  background-color: cyan;
+  /*color: yellow;*/
 }
 
 .lBar{
@@ -57,4 +57,5 @@
 
 #disclaimer{
   font-size: x-large;
+  top: 35px;
 }

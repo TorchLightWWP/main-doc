@@ -72,5 +72,13 @@ app.controller('graphDisp',function($scope, $http){
     $scope.hideDesc = function(){
       $scope.descStyle = {display: 'none'};
     };
+
+    $scope.firstWord = function(st){
+      var ind = st.indexOf(" ");
+      if(ind < 0)
+        return st;
+      else
+        return st.substring(0,ind);
+    };
   });
 });
