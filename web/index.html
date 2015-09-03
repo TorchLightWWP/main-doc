@@ -11,7 +11,7 @@
         <div ng-app="timingApp">
             <div ng-controller="graphDisp" class="container">
                 <div ng-repeat="(k, v) in types" class="lBar" ng-style="lBarStyle(v)">
-                    <a ng-href="{{firstWord(k) + '.html'}}">{{k}}</a>
+                    {{k}}
                 </div>
                 <div ng-repeat="g in graph" ng-class="g.type" ng-style="getStyle(g)" ng-click="showDesc(g.desc,g.link,$event)">
                     {{g.name}}
@@ -23,7 +23,7 @@
                 <div id="disclaimer">Note that this is an example, not an actual or compete schedule. Click on the links for more details.</div>
                 <div id="desc" ng-style="descStyle">
                     {{currDesc}}
-                    <a ng-href="currLink">Click for details.</a>
+                    <a ng-if="currLink != ''" ng-href="{{currLink}}">Click for details.</a>
                     <button ng-click="hideDesc()">Close</button>
                 </div>
             </div>
