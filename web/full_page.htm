@@ -1648,6 +1648,27 @@ if (msoBrowserCheck())
  <o:shapelayout v:ext="edit">
   <o:idmap v:ext="edit" data="1"/>
  </o:shapelayout></xml><![endif]-->
+
+    <script language="JavaScript">
+        function toggleTOC(){
+            if(document.getElementById("toc").style.display == "none")
+                document.getElementById("toc").style.display = "block";
+            else
+                document.getElementById("toc").style.display = "none";
+        }
+    </script>
+
+    <style>
+        .toc{
+            position: fixed;
+            border: 3px solid black;
+            z-index: 9999;
+            background-color: white;
+            top: 0;
+            right: 0;
+        }
+    </style>
+
 </head>
 
 <body bgcolor=white lang=EN-US link="#0563C1" vlink="#954F72" style='tab-interval:
@@ -1753,6 +1774,8 @@ college planning<!-- � Some trash from MS --> is marked important).</span></b>
 
 <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
 
+<div class="toc" onclick="JavaScript:toggleTOC();"> Show/ hide Table of contents.
+    <div id="toc">
 <p class=MsoNormal style='margin-left:.25in'><a href="#h.nojra6wfjds0"><span
 style='font-family:"Courier New";color:#1155CC'>Table of Contents</span></a></p>
 
@@ -1870,6 +1893,8 @@ How to Obtain It</span></a></p>
 <p class=MsoNormal style='margin-left:.5in'><a href="#h.eafk6sk33tn"><span
 style='font-family:"Courier New";color:#1155CC'>No Stress Involved- Based On <span
 class=SpellE>One<!-- � Some trash from MS -->s</span> Mentality</span></a></p>
+</div>
+    </div>
 
 <p class=MsoNormal>&nbsp;</p>
 
