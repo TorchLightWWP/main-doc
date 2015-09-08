@@ -59,7 +59,7 @@
     "type": "extracurricular 1",
     "time": 2,
     "desc": "You should explore some clubs, but focus on studies. Try to find your interests.",
-    "link": "full_page.htm#h.zxqt968xwbz",
+    "link": "web/web/full_page.htm#h.zxqt968xwbz",
     "name": "Possible Clubs",
     "duration": 10
   },
@@ -69,7 +69,7 @@
     "duration": 2,
     "name": "summer course",
     "desc": "A possible summer course.",
-    "link": "full_page.htm#h.75ovsc2tizkc"
+    "link": "web/web/full_page.htm#h.75ovsc2tizkc"
   },
   {
     "type": "grade level",
@@ -131,7 +131,7 @@
     "type": "extracurricular 1",
     "time": 14,
     "desc": "Get more involved in clubs you like.",
-    "link": "full_page.htm#h.zxqt968xwbz",
+    "link": "web/full_page.htm#h.zxqt968xwbz",
     "name": "Club involvement.",
     "duration": 10
   },
@@ -139,7 +139,7 @@
     "type": "extracurricular 2",
     "time": 14,
     "desc": "Find volunteering opportunities and participate.",
-    "link": "full_page.htm#h.c226xitqqu6q",
+    "link": "web/full_page.htm#h.c226xitqqu6q",
     "name": "Volunteering",
     "duration": 28
   },
@@ -147,7 +147,7 @@
     "type": "test",
     "time": 20,
     "desc": "Study for and take standardized tests.",
-    "link": "full_page.htm#h.w5g6xxn44rjn",
+    "link": "web/full_page.htm#h.w5g6xxn44rjn",
     "name": "Standardized tests",
     "duration": 20
   },
@@ -155,7 +155,7 @@
     "type": "competition",
     "time": 17,
     "desc": "Start partaking in a few competitions. Begin representing the school.",
-    "link": "full_page.htm#h.z5swwwnvupjf",
+    "link": "web/full_page.htm#h.z5swwwnvupjf",
     "name": "Starting competitions",
     "duration": 9
   },
@@ -219,7 +219,7 @@
     "type": "extracurricular 1",
     "time": 26,
     "desc": "Lead a club or be close to the leadership. Lead during senior year.",
-    "link": "full_page.htm#h.1vv40evyc36",
+    "link": "web/full_page.htm#h.1vv40evyc36",
     "name": "Lead a club",
     "duration": 22
   },
@@ -227,7 +227,7 @@
     "type": "competition",
     "time": 26,
     "desc": "Begin to win competitions.",
-    "link": "full_page.htm#h.z5swwwnvupjf",
+    "link": "web/full_page.htm#h.z5swwwnvupjf",
     "name": "Start Winning",
     "duration": 16
   },
@@ -235,7 +235,7 @@
     "type": "college app",
     "time": 26,
     "desc": "Compile a list of intersting colleges. Shorten this to around 10.",
-    "link": "full_page.htm#h.e5gh7urpgtns",
+    "link": "web/full_page.htm#h.e5gh7urpgtns",
     "name": "List Colleges",
     "duration": 6
   },
@@ -251,7 +251,7 @@
     "type": "college app",
     "time": 36,
     "desc": "Work on college apps. Submit all by the end of this (Dec. of senior year).",
-    "link": "full_page.htm#h.jsdh5o8qjjxf",
+    "link": "web/full_page.htm#h.jsdh5o8qjjxf",
     "name": "Apply to college",
     "duration": 6
   },
@@ -323,7 +323,7 @@
     "type": "college app",
     "time": 43,
     "desc": "Applications for aid and certain grants are separate.",
-    "link": "full_page.htm#h.elha41q1pbpf",
+    "link": "web/full_page.htm#h.elha41q1pbpf",
     "name": "Apply for aid/grants.",
     "duration": 3
   },

@@ -19,7 +19,7 @@ xOffset = 100;
 yOffset = 150;
 
 app.controller('graphDisp',function($scope, $http){
-  $http.get('events.json').success(function(graph){
+  $http.get('web/index_files/events.json').success(function(graph){
 
     //graph = JSON.parse(gr.data);
 
