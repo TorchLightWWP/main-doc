@@ -12,7 +12,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link rel=File-List href="full_page_files/filelist.xml">
 <link rel=Edit-Time-Data href="full_page_files/editdata.mso">
 <!--[if !mso]>
-<style id=dynCom>
+<style>
 v\:* {behavior:url(#default#VML);}
 o\:* {behavior:url(#default#VML);}
 w\:* {behavior:url(#default#VML);}
@@ -23,7 +23,6 @@ w\:* {behavior:url(#default#VML);}
 <link rel=colorSchemeMapping href="full_page_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
-  <w:Zoom>110</w:Zoom>
   <w:SpellingState>Clean</w:SpellingState>
   <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
@@ -620,7 +619,12 @@ w\:* {behavior:url(#default#VML);}
  </w:LatentStyles>
 </xml><![endif]-->
 <style>
-<!--
+<!--.TOC
+	{position: fixed;
+	right:0in;
+	top:0in;
+	z-index:9999;}
+
  /* Font Definitions */
  @font-face
 	{font-family:Helvetica;
@@ -682,10 +686,9 @@ w\:* {behavior:url(#default#VML);}
 	panose-1:2 2 6 9 4 2 5 8 3 4;
 	mso-font-alt:"\FF2D\FF33 \660E\671D";
 	mso-font-charset:128;
-	mso-generic-font-family:roman;
-	mso-font-format:other;
+	mso-generic-font-family:modern;
 	mso-font-pitch:fixed;
-	mso-font-signature:1 134676480 16 0 131072 0;}
+	mso-font-signature:-536870145 1791491579 134217746 0 131231 0;}
 @font-face
 	{font-family:Batang;
 	panose-1:2 3 6 0 0 1 1 1 1 1;
@@ -719,9 +722,8 @@ w\:* {behavior:url(#default#VML);}
 	mso-font-alt:"\FF2D\FF33 \30B4\30B7\30C3\30AF";
 	mso-font-charset:128;
 	mso-generic-font-family:modern;
-	mso-font-format:other;
 	mso-font-pitch:fixed;
-	mso-font-signature:1 134676480 16 0 131072 0;}
+	mso-font-signature:-536870145 1791491579 134217746 0 131231 0;}
 @font-face
 	{font-family:Dotum;
 	panose-1:2 11 6 0 0 1 1 1 1 1;
@@ -1104,8 +1106,7 @@ p.MsoSubtitle, li.MsoSubtitle, div.MsoSubtitle
 	color:#666666;
 	font-style:italic;}
 a:link, span.MsoHyperlink
-	{mso-style-noshow:yes;
-	mso-style-priority:99;
+	{mso-style-priority:99;
 	color:#0563C1;
 	text-decoration:underline;
 	text-underline:single;}
@@ -1296,6 +1297,38 @@ span.TitleChar
 	color:windowtext;
 	letter-spacing:-.5pt;
 	mso-font-kerning:14.0pt;}
+span.SubtitleChar
+	{mso-style-name:"Subtitle Char";
+	mso-style-priority:11;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Subtitle;
+	mso-ansi-font-size:11.0pt;
+	mso-bidi-font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	color:#5A5A5A;
+	mso-themecolor:text1;
+	mso-themetint:165;
+	letter-spacing:.75pt;}
+span.BalloonTextChar
+	{mso-style-name:"Balloon Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Balloon Text";
+	font-family:"Segoe UI",sans-serif;
+	mso-ascii-font-family:"Segoe UI";
+	mso-hansi-font-family:"Segoe UI";
+	mso-bidi-font-family:"Segoe UI";}
 p.msotitlecxspfirst, li.msotitlecxspfirst, div.msotitlecxspfirst
 	{mso-style-name:msotitlecxspfirst;
 	mso-style-unhide:no;
@@ -1338,27 +1371,6 @@ p.msotitlecxsplast, li.msotitlecxsplast, div.msotitlecxsplast
 	mso-fareast-theme-font:minor-fareast;
 	mso-bidi-font-family:"Times New Roman";
 	color:black;}
-span.SubtitleChar
-	{mso-style-name:"Subtitle Char";
-	mso-style-priority:11;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:Subtitle;
-	mso-ansi-font-size:11.0pt;
-	mso-bidi-font-size:11.0pt;
-	font-family:"Calibri",sans-serif;
-	mso-ascii-font-family:Calibri;
-	mso-ascii-theme-font:minor-latin;
-	mso-fareast-font-family:"Times New Roman";
-	mso-fareast-theme-font:minor-fareast;
-	mso-hansi-font-family:Calibri;
-	mso-hansi-theme-font:minor-latin;
-	mso-bidi-font-family:"Times New Roman";
-	mso-bidi-theme-font:minor-bidi;
-	color:#5A5A5A;
-	mso-themecolor:text1;
-	mso-themetint:165;
-	letter-spacing:.75pt;}
 p.msosubtitlecxspfirst, li.msosubtitlecxspfirst, div.msosubtitlecxspfirst
 	{mso-style-name:msosubtitlecxspfirst;
 	mso-style-unhide:no;
@@ -1406,17 +1418,6 @@ p.msosubtitlecxsplast, li.msosubtitlecxsplast, div.msosubtitlecxsplast
 	mso-bidi-font-family:"Times New Roman";
 	color:#666666;
 	font-style:italic;}
-span.BalloonTextChar
-	{mso-style-name:"Balloon Text Char";
-	mso-style-noshow:yes;
-	mso-style-priority:99;
-	mso-style-unhide:no;
-	mso-style-locked:yes;
-	mso-style-link:"Balloon Text";
-	font-family:"Segoe UI",sans-serif;
-	mso-ascii-font-family:"Segoe UI";
-	mso-hansi-font-family:"Segoe UI";
-	mso-bidi-font-family:"Segoe UI";}
 p.msolistparagraphcxspfirst, li.msolistparagraphcxspfirst, div.msolistparagraphcxspfirst
 	{mso-style-name:msolistparagraphcxspfirst;
 	mso-style-unhide:no;
@@ -1488,6 +1489,23 @@ p.msopapdefault, li.msopapdefault, div.msopapdefault
 	font-family:"Times New Roman",serif;
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
+p.toc, li.toc, div.toc
+	{mso-style-name:toc;
+	mso-style-unhide:no;
+	mso-margin-top-alt:auto;
+	margin-right:0in;
+	mso-margin-bottom-alt:auto;
+	margin-left:0in;
+	mso-pagination:widow-orphan;
+	background:white;
+	border:none;
+	mso-border-alt:solid black 2.25pt;
+	padding:0in;
+	mso-padding-alt:0in 0in 0in 0in;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
 span.msoIns
 	{mso-style-type:export-only;
 	mso-style-name:"";
@@ -1516,9 +1534,6 @@ span.GramE
 	mso-hansi-font-family:Arial;
 	mso-bidi-font-family:Arial;
 	color:black;}
-.MsoPapDefault
-	{mso-style-type:export-only;
-	line-height:115%;}
 @page WordSection1
 	{size:8.5in 11.0in;
 	margin:1.0in 1.0in 1.0in 1.0in;
@@ -1527,6 +1542,163 @@ span.GramE
 	mso-paper-source:0;}
 div.WordSection1
 	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:440419759;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1708307384 67698691 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.0in;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.5in;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.0in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.5in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.0in;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.5in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:4.0in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:4.5in;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:5.0in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:555314523;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-19084984 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.25in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:1.75in;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.25in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:2.75in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.25in;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:3.75in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:4.25in;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:4.75in;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:5.25in;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
 -->
 </style>
 <!--[if gte mso 10]>
@@ -1542,7 +1714,6 @@ div.WordSection1
 	mso-padding-alt:0in 5.4pt 0in 5.4pt;
 	mso-para-margin:0in;
 	mso-para-margin-bottom:.0001pt;
-	line-height:115%;
 	mso-pagination:widow-orphan;
 	font-size:10.0pt;
 	font-family:"Arial",sans-serif;
@@ -1642,33 +1813,21 @@ if (msoBrowserCheck())
 }
 // -->
 </script>
-<!--[if gte mso 9]><xml>
- <o:shapedefaults v:ext="edit" spidmax="1026"/>
-</xml><![endif]--><!--[if gte mso 9]><xml>
- <o:shapelayout v:ext="edit">
-  <o:idmap v:ext="edit" data="1"/>
- </o:shapelayout></xml><![endif]-->
 
-    <script language="JavaScript">
+<script language="JavaScript">
         function toggleTOC(){
             if(document.getElementById("toc").style.display == "none")
                 document.getElementById("toc").style.display = "block";
             else
                 document.getElementById("toc").style.display = "none";
         }
-    </script>
-
-    <style>
-        .toc{
-            position: fixed;
-            border: 3px solid black;
-            z-index: 9999;
-            background-color: white;
-            top: 0;
-            right: 0;
-        }
-    </style>
-
+</script>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="1026"/>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
 </head>
 
 <body bgcolor=white lang=EN-US link="#0563C1" vlink="#954F72" style='tab-interval:
@@ -1774,127 +1933,157 @@ college planning<!-- � Some trash from MS --> is marked important).</span></b>
 
 <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
 
-<div class="toc" onclick="JavaScript:toggleTOC();"> Show/ hide Table of contents.
-    <div id="toc">
-<p class=MsoNormal style='margin-left:.25in'><a href="#h.nojra6wfjds0"><span
-style='font-family:"Courier New";color:#1155CC'>Table of Contents</span></a></p>
+<div style='border:solid black 2.25pt;padding:0in 0in 0in 0in;position:fixed;background:white;right:0px;top:0px'
+onclick="JavaScript:toggleTOC();">
 
-<p class=MsoNormal style='margin-left:.25in'><a href="#h.dnd9edq6hmaj"><span
-style='font-family:"Courier New";color:#1155CC'>Foreword**!!!**</span></a></p>
+<p class=MsoNormal style='line-height:normal;background:white'><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif;mso-fareast-font-family:
+"Times New Roman";color:windowtext'>Show/ hide Table of contents. <o:p></o:p></span></p>
 
-<p class=MsoNormal style='margin-left:.25in'><a href="#h.vnggwgv3l5zf"><span
-style='font-family:"Courier New";color:#1155CC'>General College Information</span></a></p>
+<div id="toc">
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.jsdh5o8qjjxf"><span
-style='font-family:"Courier New";color:#1155CC'>College Process</span></a></p>
+<p class=MsoNormal style='margin-left:.25in;background:white'><a
+href="#h.nojra6wfjds0"><span style='font-family:"Courier New";color:#1155CC'>Table
+of Contents</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.e5gh7urpgtns"><span
-style='font-family:"Courier New";color:#1155CC'>Finding a List of Colleges You
-Apply to</span></a></p>
+<p class=MsoNormal style='margin-left:.25in;background:white'><a
+href="#h.dnd9edq6hmaj"><span style='font-family:"Courier New";color:#1155CC'>Foreword**!!!**</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.qtgyb4b35x9h"><span
-style='font-family:"Courier New";color:#1155CC'>What Colleges Look For**!!!**</span></a></p>
+<p class=MsoNormal style='margin-left:.25in;background:white'><a
+href="#h.vnggwgv3l5zf"><span style='font-family:"Courier New";color:#1155CC'>General
+College Information</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.qth5efl97x7g"><span
-style='font-family:"Courier New";color:#1155CC'>What Colleges Dislike**!!!**</span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.jsdh5o8qjjxf"><span style='font-family:"Courier New";color:#1155CC'>College
+Process</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.elha41q1pbpf"><span
-style='font-family:"Courier New";color:#1155CC'>Financial Aid</span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.e5gh7urpgtns"><span style='font-family:"Courier New";color:#1155CC'>Finding
+a List of Colleges You Apply to</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.po3wey85w74e"><span
-style='font-family:"Courier New";color:#1155CC'>College Essays/ Supplementary
-Essays</span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.qtgyb4b35x9h"><span style='font-family:"Courier New";color:#1155CC'>What
+Colleges Look For**!!!**</span></a></p>
 
-<p class=MsoNormal style='margin-left:.25in'><a href="#h.g85mn86888ld"><span
-style='font-family:"Courier New";color:#1155CC'>Fundamentals of College
-Planning**!!!**</span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.qth5efl97x7g"><span style='font-family:"Courier New";color:#1155CC'>What
+Colleges Dislike**!!!**</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.5247nfq9l2cg"><span
-style='font-family:"Courier New";color:#1155CC'>Middle School</span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.elha41q1pbpf"><span style='font-family:"Courier New";color:#1155CC'>Financial
+Aid</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.kaiwc77n62dy"><span
-style='font-family:"Courier New";color:#1155CC'>Courses / Grades in High School</span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.po3wey85w74e"><span style='font-family:"Courier New";color:#1155CC'>College
+Essays/ Supplementary Essays</span></a></p>
 
-<p class=MsoNormal style='margin-left:.75in'><a href="#h.ewyot3scqyw8"><span
-style='font-family:"Courier New";color:#1155CC'>The GPA</span></a></p>
+<p class=MsoNormal style='margin-left:.25in;background:white'><a
+href="#h.g85mn86888ld"><span style='font-family:"Courier New";color:#1155CC'>Fundamentals
+of College Planning**!!!**</span></a></p>
 
-<p class=MsoNormal style='margin-left:.75in'><a href="#h.8i1rbp4s6nxu"><span
-style='font-family:"Courier New";color:#1155CC'>Main Courses</span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.5247nfq9l2cg"><span style='font-family:"Courier New";color:#1155CC'>Middle
+School</span></a></p>
 
-<p class=MsoNormal style='margin-left:.75in'><a href="#h.75ovsc2tizkc"><span
-style='font-family:"Courier New";color:#1155CC'>Option ii / The Way You Skip
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.kaiwc77n62dy"><span style='font-family:"Courier New";color:#1155CC'>Courses
+/ Grades in High School</span></a></p>
+
+<p class=MsoNormal style='margin-left:.75in;background:white'><a
+href="#h.ewyot3scqyw8"><span style='font-family:"Courier New";color:#1155CC'>The
+GPA</span></a></p>
+
+<p class=MsoNormal style='margin-left:.75in;background:white'><a
+href="#h.8i1rbp4s6nxu"><span style='font-family:"Courier New";color:#1155CC'>Main
 Courses</span></a></p>
 
-<p class=MsoNormal style='margin-left:.75in'><a href="#h.8b2kejkp50mq"><span
-style='font-family:"Courier New";color:#1155CC'>Course Requirements/ Graduation
-Requirements</span></a></p>
+<p class=MsoNormal style='margin-left:.75in;background:white'><a
+href="#h.75ovsc2tizkc"><span style='font-family:"Courier New";color:#1155CC'>Option
+ii / The Way You Skip Courses</span></a></p>
 
-<p class=MsoNormal style='margin-left:.75in'><a href="#h.g1vp1q76bxdg"><span
-style='font-family:"Courier New";color:#1155CC'>Getting an <!-- � Some trash from MS -->A<!-- � Some trash from MS -->
-<span class=GramE>In</span> a Class</span></a></p>
+<p class=MsoNormal style='margin-left:.75in;background:white'><a
+href="#h.8b2kejkp50mq"><span style='font-family:"Courier New";color:#1155CC'>Course
+Requirements/ Graduation Requirements</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.z5swwwnvupjf"><span
-style='font-family:"Courier New";color:#1155CC'>Competitions</span></a></p>
+<p class=MsoNormal style='margin-left:.75in;background:white'><a
+href="#h.g1vp1q76bxdg"><span style='font-family:"Courier New";color:#1155CC'>Getting
+an <!-- � Some trash from MS -->A<!-- � Some trash from MS --> <span
+class=GramE>In</span> a Class</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.s61uwtywligz"><span
-style='font-family:"Courier New";color:#1155CC'>Internships / Research</span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.z5swwwnvupjf"><span style='font-family:"Courier New";color:#1155CC'>Competitions</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.w5g6xxn44rjn"><span
-style='font-family:"Courier New";color:#1155CC'>Standardized Tests</span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.s61uwtywligz"><span style='font-family:"Courier New";color:#1155CC'>Internships
+/ Research</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.1vv40evyc36"><span
-class=SpellE><span style='font-family:"Courier New";color:#1155CC'>Extracurriculars</span></span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.w5g6xxn44rjn"><span style='font-family:"Courier New";color:#1155CC'>Standardized
+Tests</span></a></p>
 
-<p class=MsoNormal style='margin-left:.75in'><a href="#h.zxqt968xwbz"><span
-style='font-family:"Courier New";color:#1155CC'>After School Clubs</span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.1vv40evyc36"><span class=SpellE><span style='font-family:"Courier New";
+color:#1155CC'>Extracurriculars</span></span></a></p>
 
-<p class=MsoNormal style='margin-left:.75in'><a href="#h.5wj7clslvqif"><span
-style='font-family:"Courier New";color:#1155CC'>Sports</span></a></p>
+<p class=MsoNormal style='margin-left:.75in;background:white'><a
+href="#h.zxqt968xwbz"><span style='font-family:"Courier New";color:#1155CC'>After
+School Clubs</span></a></p>
 
-<p class=MsoNormal style='margin-left:.75in'><a href="#h.c226xitqqu6q"><span
-style='font-family:"Courier New";color:#1155CC'>Volunteering</span></a></p>
+<p class=MsoNormal style='margin-left:.75in;background:white'><a
+href="#h.5wj7clslvqif"><span style='font-family:"Courier New";color:#1155CC'>Sports</span></a></p>
 
-<p class=MsoNormal style='margin-left:.75in'><a href="#h.adc7jmg47l08"><span
-style='font-family:"Courier New";color:#1155CC'>Jobs</span></a></p>
+<p class=MsoNormal style='margin-left:.75in;background:white'><a
+href="#h.c226xitqqu6q"><span style='font-family:"Courier New";color:#1155CC'>Volunteering</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.t6odo6d3rzc9"><span
-style='font-family:"Courier New";color:#1155CC'>Timing**!!!**</span></a></p>
+<p class=MsoNormal style='margin-left:.75in;background:white'><a
+href="#h.adc7jmg47l08"><span style='font-family:"Courier New";color:#1155CC'>Jobs</span></a></p>
 
-<p class=MsoNormal style='margin-left:.25in'><a href="#h.yunnevcjf3"><span
-style='font-family:"Courier New";color:#1155CC'>General Resources</span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.t6odo6d3rzc9"><span style='font-family:"Courier New";color:#1155CC'>Timing**!!!**</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.2dlauwsm5v1k"><span
-style='font-family:"Courier New";color:#1155CC'>Textbooks / Books</span></a></p>
+<p class=MsoNormal style='margin-left:.25in;background:white'><a
+href="#h.yunnevcjf3"><span style='font-family:"Courier New";color:#1155CC'>General
+Resources</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.muemvs9fywk1"><span
-style='font-family:"Courier New";color:#1155CC'>Finding Opportunities
-(internships / research)</span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.2dlauwsm5v1k"><span style='font-family:"Courier New";color:#1155CC'>Textbooks
+/ Books</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.fk2bln63kk9t"><span
-style='font-family:"Courier New";color:#1155CC'>Real Guidance*</span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.muemvs9fywk1"><span style='font-family:"Courier New";color:#1155CC'>Finding
+Opportunities (internships / research)</span></a></p>
 
-<p class=MsoNormal style='margin-left:.25in'><a href="#h.f640mpowp212"><span
-style='font-family:"Courier New";color:#1155CC'>Important Ideas**!!!**</span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.fk2bln63kk9t"><span style='font-family:"Courier New";color:#1155CC'>Real
+Guidance*</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.a06uj9wgi6v0"><span
-style='font-family:"Courier New";color:#1155CC'>Gender Differences</span></a></p>
+<p class=MsoNormal style='margin-left:.25in;background:white'><a
+href="#h.f640mpowp212"><span style='font-family:"Courier New";color:#1155CC'>Important
+Ideas**!!!**</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.ma1yciyh11rj"><span
-style='font-family:"Courier New";color:#1155CC'>Race Differences</span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.a06uj9wgi6v0"><span style='font-family:"Courier New";color:#1155CC'>Gender
+Differences</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.oy5ftmgnj7ok"><span
-style='font-family:"Courier New";color:#1155CC'>Pursuit of Passion / Vanity of
-College Competitiveness</span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.ma1yciyh11rj"><span style='font-family:"Courier New";color:#1155CC'>Race
+Differences</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.5ozbne64xryz"><span
-style='font-family:"Courier New";color:#1155CC'>What Real Intelligence Is and
-How to Obtain It</span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.oy5ftmgnj7ok"><span style='font-family:"Courier New";color:#1155CC'>Pursuit
+of Passion / Vanity of College Competitiveness</span></a></p>
 
-<p class=MsoNormal style='margin-left:.5in'><a href="#h.eafk6sk33tn"><span
-style='font-family:"Courier New";color:#1155CC'>No Stress Involved- Based On <span
-class=SpellE>One<!-- � Some trash from MS -->s</span> Mentality</span></a></p>
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.5ozbne64xryz"><span style='font-family:"Courier New";color:#1155CC'>What
+Real Intelligence Is and How to Obtain It</span></a></p>
+
+<p class=MsoNormal style='margin-left:.5in;background:white'><a
+href="#h.eafk6sk33tn"><span style='font-family:"Courier New";color:#1155CC'>No
+Stress Involved- Based On One<!-- � Some trash from MS -->s Mentality</span></a></p>
+
 </div>
-    </div>
+
+</div>
 
 <p class=MsoNormal>&nbsp;</p>
 
@@ -1909,12 +2098,12 @@ style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h1>
 
 <p class=MsoNormal style='text-indent:.5in'><span style='font-size:12.0pt;
 line-height:115%;font-family:"Times New Roman",serif'>This document serves one
-main purpose. To educate students (and parents) about how the school system works
-so that everyone has an equal opportunity to get into the best colleges in the
-world. Normally, this valuable information is kept hidden from the majority of
-students and only a few elite students know how to get into colleges like
-Harvard. The point of this document TORCHLIGHT is to fight the shadiness. This
-concept of <!-- � Some trash from MS -->shadiness<!-- � Some trash from MS -->
+main purpose. To educate students (and parents) about how the school system
+works so that everyone has an equal opportunity to get into the best colleges
+in the world. Normally, this valuable information is kept hidden from the
+majority of students and only a few elite students know how to get into colleges
+like Harvard. The point of this document TORCHLIGHT is to fight the shadiness.
+This concept of <!-- � Some trash from MS -->shadiness<!-- � Some trash from MS -->
 or <!-- � Some trash from MS -->shady<!-- � Some trash from MS --> behavior
 is best illustrated with examples: one student gets into MIT because of doing
 research with a professor that happens to be a family member. Another, student
@@ -1948,8 +2137,8 @@ upperclassman some of who have gotten into very affluent schools.<!-- � Some t
 They also start lots of science and math competitions in middle school and take
 it to a whole other level in high school. Some even compete at the national or
 global level. This document should allow students who are intelligent but not
-part of this elite class to challenge themselves, compete fairly and succeed
-(get into great colleges they deserve to be in). </span><o:p></o:p></p>
+part of this elite class to challenge themselves, compete fairly and succeed (get
+into great colleges they deserve to be in). </span><o:p></o:p></p>
 
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
 "Times New Roman",serif'><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->A
@@ -1999,10 +2188,10 @@ of what program (or even college) you would like to apply to.<o:p></o:p></p>
 you apply, Colleges have three responses: acceptance, rejection and wait
 listing (also deferral in some cases). Acceptance and rejection are obvious;
 but wait listing is when, if they have a few open spots towards the end of
-their enrollment period, they may or may not accept you. Some colleges have a
-ranked waitlist where they tell you the order in which they will accept
-students when spots allow it. You may want to ask about this when waitlisted
-from a college, to know your probability of getting in.</p>
+their enrollment period, they may or may not accept you. Some colleges have a ranked
+waitlist where they tell you the order in which they will accept students when
+spots allow it. You may want to ask about this when waitlisted from a college,
+to know your probability of getting in.</p>
 
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
@@ -2047,10 +2236,10 @@ recommendations and some have requirements for subjects.</p>
 
 <p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in'>&#9675;<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span><span class=GramE>one</span> note: your school will make you sign
-something called a FERPA waiver which you should sign otherwise colleges do not
-take your recommendations seriously- it just does not allow you to see your
-college recommendations before they are mailed</p>
+</span><span class=GramE>one</span> note: your school will make you sign something
+called a FERPA waiver which you should sign otherwise colleges do not take your
+recommendations seriously- it just does not allow you to see your college
+recommendations before they are mailed</p>
 
 <p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in'>&#9675;<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -2110,9 +2299,9 @@ your courses better- but we will discuss all that later. </p>
 
 <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>&#9679;<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>College essay: most colleges require you to write a personal essay that
-explains who you are or just lets the admissions people know what kind of
-person you are. We explain how to write a good one in a later section.</p>
+</span>College essay: most colleges require you to write a personal essay that explains
+who you are or just lets the admissions people know what kind of person you
+are. We explain how to write a good one in a later section.</p>
 
 <p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in'>&#9675;<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -2121,8 +2310,9 @@ will explain all this in the college essay section</p>
 
 <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>&#9679;<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Portfolio. Some programs (particularly art ones) require a portfolio. See
-your <span class=GramE>college<!-- � Some trash from MS -->s</span> website. </p>
+</span>Portfolio. Some programs (particularly art ones) require a portfolio.
+See your <span class=GramE>college<!-- � Some trash from MS -->s</span>
+website. </p>
 
 <p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in'>&#9675;<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -2208,11 +2398,11 @@ few) to simplify the process by requiring all the material one must submit to
 be in the same place. Generally all students make a common application account
 on the common application website. On this account, students will add colleges
 they want to apply to using the add college tab. Once this has been done,
-students have to do 2 things:<!-- � Some trash from MS --> fill out the
-common information tab that all your colleges need and fill out the specific
-tab that has the information the college needs - which just asks questions
-about you, your interests, and perhaps asks for a supplemental essay on why you
-are interested in that college. Basically just look up on the internet how the
+students have to do 2 things:<!-- � Some trash from MS --> fill out the common
+information tab that all your colleges need and fill out the specific tab that
+has the information the college needs - which just asks questions about you,
+your interests, and perhaps asks for a supplemental essay on why you are
+interested in that college. Basically just look up on the internet how the
 common app works. There are a plethora of YouTube videos about this. Also note,
 there is a special way to add teacher, coach and other recommendations. Some
 schools will connect a <span class=SpellE>Naviance</span> account to your
@@ -2285,8 +2475,8 @@ their recommendation. </p>
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal style='text-indent:.5in'>After the college applications,
-there is a separate process for financial aid. There are loans and scholarships
+<p class=MsoNormal style='text-indent:.5in'>After the college applications, there
+is a separate process for financial aid. There are loans and scholarships
 offered by the state and the university. Usually, <span class=SpellE>your</span>
 and your <span class=GramE>parents</span><!-- � Some trash from MS --> tax
 information will be asked for in various applications (see the <!-- � Some trash from MS -->Financial
@@ -2330,11 +2520,12 @@ be 10x the size)? Where does academics fit in? Does cost matter?</p>
 find out what affects you, visiting colleges is vital. You should visit
 colleges to learn about them and get an experience. Remember that you would
 live in that place over the next four years. Keep your comfort in mind. Note
-that not all factors require visitation: the academics of a college can be understood
-via rankings. Seeing what professors are employed in departments or interest
-would help you get a feel for this as well. Also keep the cost in mind. Here
-are a few questions you should ask yourself about the college, whether you are
-at the place or seeing the place<!-- � Some trash from MS -->s website:</p>
+that not all factors require visitation: the academics of a college can be
+understood via rankings. Seeing what professors are employed in departments or
+interest would help you get a feel for this as well. Also keep the cost in
+mind. Here are a few questions you should ask yourself about the college,
+whether you are at the place or seeing the place<!-- � Some trash from MS -->s
+website:</p>
 
 <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>&#9679;<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -2531,10 +2722,10 @@ is some actual, real-life, serious BS. </span></i></p>
 
 <p class=MsoNormal align=center style='text-align:center'><span
 style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'>The
-rest of this page has been left blank to commemorate all the lost souls who
-have eaten this nonsense or have had it shoved down their puny unsuspecting
-gullets. You should generally avoid taking college advice from anyone who says
-this. This is the biggest and worst lie about the college process there is. </span></p>
+rest of this page has been left blank to commemorate all the lost souls who have
+eaten this nonsense or have had it shoved down their puny unsuspecting gullets.
+You should generally avoid taking college advice from anyone who says this.
+This is the biggest and worst lie about the college process there is. </span></p>
 
 <p class=MsoNormal align=center style='text-align:center'>&nbsp;</p>
 
@@ -2644,8 +2835,8 @@ Pennsylvania- point is, these are seriously good colleges!)</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal>Here are the rest of the hidden ivies by area- later referred
-to as <!-- � Some trash from MS -->mid and low hidden ivies<!-- � Some trash from MS -->
+<p class=MsoNormal>Here are the rest of the hidden ivies by area- later
+referred to as <!-- � Some trash from MS -->mid and low hidden ivies<!-- � Some trash from MS -->
 with the top hidden ivies known as the mini ivies: (this material was copy
 pasted from Wikipedia)</p>
 
@@ -2788,9 +2979,9 @@ name=h.9i88vai56amx></a><span style='mso-fareast-font-family:"Times New Roman"'>
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal style='margin-top:4.0pt;line-height:normal'>The next
-category of relatively good schools is low ivies. Since it is easier to explain
-the whole Ivy League at once that is what we will do:</p>
+<p class=MsoNormal style='margin-top:4.0pt;line-height:normal'>The next category
+of relatively good schools is low ivies. Since it is easier to explain the
+whole Ivy League at once that is what we will do:</p>
 
 <p class=MsoNormal style='margin-top:4.0pt;line-height:normal'>&nbsp;</p>
 
@@ -2859,8 +3050,8 @@ we will give you the list of things that these colleges like to see you have. </
 <p class=MsoNormal style='margin-top:4.0pt;text-indent:.5in;line-height:normal'>Before
 I start with the lists, it is very important to note you do not need everything
 on these lists - several options will be marked compensable- meaning you can
-find other things that compensate for them. Further, just getting random items from
-this list will not make colleges like you- see <span class=GramE>the <!-- � Some trash from MS -->what</span>
+find other things that compensate for them. Further, just getting random items
+from this list will not make colleges like you- see <span class=GramE>the <!-- � Some trash from MS -->what</span>
 colleges dislike<!-- � Some trash from MS --> section of this document. One
 last important point: you need to know that although this is a challenging list
 of items one needs to complete, it is doable and we explain how it is doable if
@@ -3024,11 +3215,11 @@ style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&n
 </span><span class=SpellE><span style='font-family:"Times New Roman",serif'>i</span></span><span
 style='font-family:"Times New Roman",serif'>.</span><span style='font-size:
 7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span><span style='font-family:"Times New Roman",serif'>this is marked as 10 because
-colleges do use numbers to define you- but it is important to know that high
-scores are relevant to where you are shooting for- if it is a low ivy, high
-scores means having an sat score above 2280 or above 2300 or an ACT score 35
-and up (with near perfect sat subject tests- again we explain how to achieve
+</span><span style='font-family:"Times New Roman",serif'>this is marked as 10
+because colleges do use numbers to define you- but it is important to know that
+high scores are relevant to where you are shooting for- if it is a low ivy,
+high scores means having an sat score above 2280 or above 2300 or an ACT score
+35 and up (with near perfect sat subject tests- again we explain how to achieve
 all of this in later sections). If you are shooting for any of the other hidden
 ivies (the mid to lower sections) look up what the average sat score/ act score
 is at your favorite school and shoot for something 100- 150 points higher than
@@ -3068,8 +3259,8 @@ popular events). </span></p>
 margin-left:1.0in;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal'><span
 style='font-family:"Times New Roman",serif'>b.</span><span style='font-size:
 7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-style='font-family:"Times New Roman",serif'>We suggest you stick with one of the
-following clubs: debate club, MUN (model united nations) club, academic
+style='font-family:"Times New Roman",serif'>We suggest you stick with one of
+the following clubs: debate club, MUN (model united nations) club, academic
 decathlon, chess club, math club, science Olympiad club, future problem solvers
 etc. </span></p>
 
@@ -3148,11 +3339,12 @@ margin-left:1.0in;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal'><
 style='font-family:"Times New Roman",serif'>a.</span><span style='font-size:
 7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
 style='font-family:"Times New Roman",serif'>This is a VERY tricky thing to talk
-about because it varies along two spectrums- the prestige and value of some competitions
-and the ones best suited to you (based what range of colleges you are shooting
-for- not just the selectivity of the college, but the types of awards they
-appreciate- like a liberal arts college will appreciate a national historical
-research paper contest award more than a technical school like Georgia tech).</span></p>
+about because it varies along two spectrums- the prestige and value of some
+competitions and the ones best suited to you (based what range of colleges you
+are shooting for- not just the selectivity of the college, but the types of
+awards they appreciate- like a liberal arts college will appreciate a national
+historical research paper contest award more than a technical school like
+Georgia tech).</span></p>
 
 <p class=MsoNormal style='margin-top:4.0pt;margin-right:0in;margin-bottom:0in;
 margin-left:1.0in;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal'><span
@@ -3253,9 +3445,9 @@ margin-left:1.0in;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal'><
 class=GramE><span style='font-family:"Times New Roman",serif'>a</span></span><span
 style='font-family:"Times New Roman",serif'>.</span><span style='font-size:
 7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-style='font-family:"Times New Roman",serif'>we discuss how to get these much later-
-they should be on the topic of one of your major interests and something your
-range of colleges would appreciate</span></p>
+style='font-family:"Times New Roman",serif'>we discuss how to get these much
+later- they should be on the topic of one of your major interests and something
+your range of colleges would appreciate</span></p>
 
 <p class=MsoNormal style='margin-top:4.0pt;margin-right:0in;margin-bottom:0in;
 margin-left:1.0in;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal'><span
@@ -3430,9 +3622,9 @@ margin-left:1.0in;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal'><
 class=GramE><span style='font-family:"Times New Roman",serif'>b</span></span><span
 style='font-family:"Times New Roman",serif'>.</span><span style='font-size:
 7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-style='font-family:"Times New Roman",serif'>debate, MUN, academic decathlon,
-(maybe chess club), math club, science Olympiad, science bowl, quiz bowl, being
-an officer in the math honors society, </span></p>
+style='font-family:"Times New Roman",serif'>debate, MUN, academic decathlon, (maybe
+chess club), math club, science Olympiad, science bowl, quiz bowl, being an
+officer in the math honors society, </span></p>
 
 <p class=MsoNormal style='margin-top:4.0pt;margin-right:0in;margin-bottom:0in;
 margin-left:1.5in;margin-bottom:.0001pt;text-indent:-1.5in;line-height:normal'><span
@@ -3597,8 +3789,8 @@ margin-left:1.0in;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal'><
 style='font-family:"Times New Roman",serif'>c.</span><span style='font-size:
 7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
 style='font-family:"Times New Roman",serif'>Another example would be creating a
-non-profit organization (look up online how to do this should you want to) to help
-some people in need.</span></p>
+non-profit organization (look up online how to do this should you want to) to
+help some people in need.</span></p>
 
 <p class=MsoNormal style='margin-top:4.0pt;margin-right:0in;margin-bottom:0in;
 margin-left:1.0in;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal'><span
@@ -3660,8 +3852,8 @@ college and be able to live in a district like ours:</p>
 margin-left:.5in;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal'>1.<span
 style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span>Good grades- get all <span class=GramE>A<!-- � Some trash from MS -->s</span>
-or <span class=SpellE>B<!-- � Some trash from MS -->s</span> with the maybe one
-C</p>
+or <span class=SpellE>B<!-- � Some trash from MS -->s</span> with the maybe
+one C</p>
 
 <p class=MsoNormal style='margin-top:4.0pt;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal'>2.<span
@@ -3677,9 +3869,9 @@ senior year)</p>
 <p class=MsoNormal style='margin-top:4.0pt;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal'>4.<span
 style='font-size:7.0pt;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Be involved in either sports or some extracurricular activity that you do
-for 4 years and get better at as time goes on- maybe get some club leadership
-or win some award</p>
+</span>Be involved in either sports or some extracurricular activity that you
+do for 4 years and get better at as time goes on- maybe get some club
+leadership or win some award</p>
 
 <p class=MsoNormal style='margin-top:4.0pt;margin-right:0in;margin-bottom:0in;
 margin-left:.5in;margin-bottom:.0001pt;text-indent:-.25in;line-height:normal'>5.<span
@@ -3776,8 +3968,8 @@ mso-fareast-font-family:"Times New Roman"'>What Colleges Dislike**!!!**</span><s
 style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
 
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->Colleges
-are known to dislike a few specific things about applicants. Note that these
-are tendencies observed by the founders, not necessarily hard facts but close
+are known to dislike a few specific things about applicants. Note that these are
+tendencies observed by the founders, not necessarily hard facts but close
 enough through experience.</p>
 
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
@@ -3806,12 +3998,12 @@ judgement.</p>
 dislike people who dabble and do not focus. You should not find yourself at a
 math tournament for one weekend and at National History Day the next and an art
 competition the one after. Instead, you should focus on math, history or art -
-whichever is the strongest interest. Of course, this does not bind you to one field
-- it merely limits you from 20. Keep a few interests alive and focus on them.
-If <span class=SpellE>you<!-- � Some trash from MS -->re</span> interested in
-math and history, take advanced courses in both. Competing in both would do no
-harm, but keep one stronger. The idea is to go far and deep, not wide and
-shallow.</p>
+whichever is the strongest interest. Of course, this does not bind you to one
+field - it merely limits you from 20. Keep a few interests alive and focus on
+them. If <span class=SpellE>you<!-- � Some trash from MS -->re</span>
+interested in math and history, take advanced courses in both. Competing in
+both would do no harm, but keep one stronger. The idea is to go far and deep,
+not wide and shallow.</p>
 
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
@@ -3830,8 +4022,8 @@ Lies ruin this system and open you or the college up for future mishaps.</p>
 
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->Another
 thing <span class=GramE>colleges</span> <span class=SpellE>don<!-- � Some trash from MS -->t</span>
-like is false or over-abundant praise. Colleges should not be given the
-impression that <span class=SpellE>they<!-- � Some trash from MS -->re</span>
+like is false or over-abundant praise. Colleges should not be given the impression
+that <span class=SpellE>they<!-- � Some trash from MS -->re</span>
 unimportant - of course - but, they are not Gods either. The fundamental issue
 here is that the application that praises moves away from the applicant. If you
 spend most of your essay and application lauding the college, there will be no
@@ -3888,9 +4080,9 @@ need NJIT - in fact, he probably would not have fit.</p>
 
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->Caveat
 on the above example: though <span class=SpellE><span class=GramE>Herman<!-- � Some trash from MS -->s</span></span>
-application itself is feasible, rejection from NJIT specifically is unlikely -
-it was merely an example of an engineering institute. Of course, you should not
-go there for art. [A clearer example will be given in version 1.10.]</p>
+application itself is feasible, rejection from NJIT specifically is unlikely - it
+was merely an example of an engineering institute. Of course, you should not go
+there for art. [A clearer example will be given in version 1.10.]</p>
 
 <h2><a name=h.elha41q1pbpf></a><span style='font-family:"Courier New";
 mso-fareast-font-family:"Times New Roman"'>Financial Aid</span><span
@@ -3918,14 +4110,14 @@ Government.</p>
 
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->Merit-based
 scholarships apply to almost every talented student. There are scholarships for
-art, academics, test scores and sports. Some of these require separate
-applications through the college. <span class=SpellE>Naviance</span> offers
-many similar scholarships with their own application. Few of these are
-automatic, depending on the college. Many will require a minimum college GPA
-among other things. Sports scholarships will require participation in the sport
-and arts scholarships may require similar participation. Note that such
-requirements only apply to merit-based scholarships - none of the other types
-of aid would require these. Such scholarships do not need repayment.</p>
+art, academics, test scores and sports. Some of these require separate applications
+through the college. <span class=SpellE>Naviance</span> offers many similar
+scholarships with their own application. Few of these are automatic, depending
+on the college. Many will require a minimum college GPA among other things.
+Sports scholarships will require participation in the sport and arts
+scholarships may require similar participation. Note that such requirements
+only apply to merit-based scholarships - none of the other types of aid would
+require these. Such scholarships do not need repayment.</p>
 
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
@@ -3940,8 +4132,8 @@ is connected to the college via the college<!-- � Some trash from MS -->s
 CEEB code which can be found online or searched for when completing the CSS
 profile. Tax information is required, including your parent<!-- � Some trash from MS -->s
 W2 forms and many other tax figures, so do consult them at this stage.
-Sometimes, the college may give need-based aid which does not need to be repaid,
-but loans will have to be.</p>
+Sometimes, the college may give need-based aid which does not need to be
+repaid, but loans will have to be.</p>
 
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
@@ -3951,8 +4143,8 @@ financial aid. The HESAA is state aid for New Jersey students attending public
 universities. Fortunately, the FAFSA links directly to the IRS (the tax bureau
 of the USA), making the form-filling much easier. Again, some of the offers may
 be loans which will need to be repaid while others would be aid - essentially
-free money. One caveat is that filing the FAFSA makes you eligible for the draft,
-if <span class=SpellE>you<!-- � Some trash from MS -->re</span> male.</p>
+free money. One caveat is that filing the FAFSA makes you eligible for the
+draft, if <span class=SpellE>you<!-- � Some trash from MS -->re</span> male.</p>
 
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
@@ -3987,8 +4179,8 @@ involved.</p>
 
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->The
 purpose of a college essay is for the college to learn more about the applicant
-- to hear them and get a feel for their voice. The essay must be written by
-you, for you and of you. You should craft it in your best English, edit it
+- to hear them and get a feel for their voice. The essay must be written by you,
+for you and of you. You should craft it in your best English, edit it
 laboriously and make sure that <span class=SpellE><span class=GramE>it<!-- � Some trash from MS -->s</span></span>
 about you while still answering the prompt. It is common to hear that <!-- � Some trash from MS -->if
 your essay was found on the floor without your name on it, people should still
@@ -4021,13 +4213,14 @@ would make your essay seem rushed, giving colleges the impression that you <span
 class=SpellE>don<!-- � Some trash from MS -->t</span> care. Keeping the essay
 cohesive and well-organized helps you and the reader understand the essay. This
 would help you get your message across. Avoid slang, though prudent usage would
-let you make certain points. In terms of the average essay you write for Language
-Arts, the college essay has slightly more relaxed rules and flexible prompts.
-Still, much of the Language Arts rubric applies as grammar, organization and
-response to the prompt are vital. Also note that writing significantly below
-the word limit gives the impression of a rushed essay or wastes your
-opportunity to shine. Better grammar and organization will help the admissions
-officer understand you and your essay and is an important part of your writing.</p>
+let you make certain points. In terms of the average essay you write for
+Language Arts, the college essay has slightly more relaxed rules and flexible
+prompts. Still, much of the Language Arts rubric applies as grammar,
+organization and response to the prompt are vital. Also note that writing
+significantly below the word limit gives the impression of a rushed essay or
+wastes your opportunity to shine. Better grammar and organization will help the
+admissions officer understand you and your essay and is an important part of
+your writing.</p>
 
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
@@ -4047,8 +4240,8 @@ major essay you would write would be the common app essay. This essay,
 submitted on the common application, will be sent to all your common app
 schools. For this essay, prompts will ask about you - whether you have
 something special to share, have faced a unique challenge or accomplished
-something. Remember that whatever you write must be somewhat new. Even if you
-write about a competition that <span class=SpellE>you<!-- � Some trash from MS -->ve</span>
+something. Remember that whatever you write must be somewhat new. Even if you write
+about a competition that <span class=SpellE>you<!-- � Some trash from MS -->ve</span>
 already talked about, discuss it in a new light and let those extra, personal
 details shine through. Bear in mind that the word limit is 650 words.</p>
 
@@ -4173,11 +4366,10 @@ suggest you also read lots of the many sources online that can help you do this
 mso-fareast-font-family:"Times New Roman"'>Fundamentals of College
 Planning**!!!**</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h1>
 
-<!-- <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->
-
-<p class=MsoNormal>This is perhaps the most important section of this document
-and it covers all the core aspects of being in shape for college.<!-- � Some trash from MS -->
-It has these sub sections: Middle School, Courses / Grades in High School,
+<p class=MsoNormal><!-- <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->This
+is perhaps the most important section of this document and it covers all the
+core aspects of being in shape for college.<!-- � Some trash from MS --> It
+has these sub sections: Middle School, Courses / Grades in High School,
 Competitions, Internships / Research, Standardized Tests, and <span
 class=SpellE>Extracurriculars</span>. </p>
 
@@ -4188,9 +4380,9 @@ style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal>Note: for most of this document, we have talked to the
-student but since it is unlikely a middle <span class=SpellE>schooler</span> is
-reading this, we will talk to the parent in this section. (So the first person
-pronouns are directed at the parent in this section only.)</p>
+student but since it is unlikely a middle schooler is reading this, we will
+talk to the parent in this section. (So the first person pronouns are directed
+at the parent in this section only.)</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
@@ -4279,9 +4471,9 @@ really should have your kid in this club</span><o:p></o:p></p>
 
 <p class=MsoListParagraph style='margin-left:114.25pt;text-indent:-.25in'><span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'><!-- � Some trash from MS -->&nbsp;
-</span><span style='font-family:"Times New Roman",serif'>These middle <span
-class=SpellE>schoolers</span> in prism end up being the high school seniors
-going to the Ivy League colleges<!-- � Some trash from MS --> </span></p>
+</span><span style='font-family:"Times New Roman",serif'>These middle schoolers
+in prism end up being the high school seniors going to the Ivy League colleges<!-- � Some trash from MS -->
+</span></p>
 
 <h2><a name=h.kaiwc77n62dy></a><span style='font-family:"Courier New";
 mso-fareast-font-family:"Times New Roman"'>Courses / Grades in High School</span><span
@@ -4382,8 +4574,8 @@ point total for one year by the total number of credits attempted for that
 year.</p>
 
 <p class=MsoNormal style='text-indent:.5in'>4.<span style='font-size:7.0pt;
-line-height:115%'><!-- � Some trash from MS --> </span>Use this same method
-for calculating both the WGPA and the GPA.<o:p></o:p></p>
+line-height:115%'><!-- � Some trash from MS --> </span>Use this same method for
+calculating both the WGPA and the GPA.<o:p></o:p></p>
 
 <p class=MsoNormal><!-- � Some trash from MS -->(Above are the official
 confusing instructions: here are the real ones :)</p>
@@ -4402,7 +4594,8 @@ studies</p>
 
 <p class=MsoNormal style='text-indent:.5in'>b.<span style='font-size:7.0pt;
 line-height:115%'><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->
-</span>Note that not getting an A does not impact the number of credits you earn</p>
+</span>Note that not getting an A does not impact the number of credits you
+earn</p>
 
 <p class=MsoNormal>3.<span style='font-size:7.0pt;line-height:115%'><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->
 </span>Find the sum of these products</p>
@@ -4554,14 +4747,14 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   I</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>A<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'>A</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=270 colspan=4 valign=top style='width:134.8pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>4 (unweighted class) </p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->4
+  (unweighted class) </p>
   </td>
   <td width=71 valign=top style='width:35.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
   <p class=MsoNormal style='line-height:105%'>X</p>
@@ -4577,33 +4770,29 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <p class=MsoNormal style='line-height:105%'>_______</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'>__</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>&nbsp;<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->&nbsp;</p>
   </td>
   <td width=71 valign=top style='width:35.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=65 valign=top style='width:32.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>____<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->____</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=69 valign=top style='width:34.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=73 valign=top style='width:36.45pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__</p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:2'>
@@ -4611,17 +4800,15 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <p class=MsoNormal style='line-height:105%'>_______</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'>__</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
@@ -4629,14 +4816,13 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <td width=71 valign=top style='width:35.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=65 valign=top style='width:32.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>____<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->____</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=69 valign=top style='width:34.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=73 valign=top style='width:36.45pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__</p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:3'>
@@ -4644,17 +4830,15 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <p class=MsoNormal style='line-height:105%'>_______</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'>__</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
@@ -4662,14 +4846,13 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <td width=71 valign=top style='width:35.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=65 valign=top style='width:32.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>____<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->____</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=69 valign=top style='width:34.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=73 valign=top style='width:36.45pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__</p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:4'>
@@ -4677,17 +4860,15 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <p class=MsoNormal style='line-height:105%'>_______</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'>__</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
@@ -4695,14 +4876,13 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <td width=71 valign=top style='width:35.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=65 valign=top style='width:32.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>____<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->____</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=69 valign=top style='width:34.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=73 valign=top style='width:36.45pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__</p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:5'>
@@ -4710,17 +4890,15 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <p class=MsoNormal style='line-height:105%'>_______</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'>__</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
@@ -4728,14 +4906,13 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <td width=71 valign=top style='width:35.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=65 valign=top style='width:32.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>____<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->____</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=69 valign=top style='width:34.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=73 valign=top style='width:36.45pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__</p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:6'>
@@ -4743,17 +4920,15 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <p class=MsoNormal style='line-height:105%'>_______</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'>__</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
@@ -4761,14 +4936,13 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <td width=71 valign=top style='width:35.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=65 valign=top style='width:32.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>____<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->____</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=69 valign=top style='width:34.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=73 valign=top style='width:36.45pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__</p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:7'>
@@ -4776,17 +4950,15 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <p class=MsoNormal style='line-height:105%'>_______</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'>__</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
@@ -4794,14 +4966,13 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <td width=71 valign=top style='width:35.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=65 valign=top style='width:32.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>____<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->____</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=69 valign=top style='width:34.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=73 valign=top style='width:36.45pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__</p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:8'>
@@ -4809,17 +4980,15 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <p class=MsoNormal style='line-height:105%'>_______</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'>__</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
@@ -4827,14 +4996,13 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <td width=71 valign=top style='width:35.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=65 valign=top style='width:32.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>____<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->____</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=69 valign=top style='width:34.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=73 valign=top style='width:36.45pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__</p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:9'>
@@ -4842,17 +5010,15 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <p class=MsoNormal style='line-height:105%'>_______</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'>__</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
@@ -4860,14 +5026,13 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <td width=71 valign=top style='width:35.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=65 valign=top style='width:32.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>____<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->____</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=69 valign=top style='width:34.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=73 valign=top style='width:36.45pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__</p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:10'>
@@ -4875,17 +5040,15 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <p class=MsoNormal style='line-height:105%'>_______</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'>__</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
@@ -4893,14 +5056,13 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <td width=71 valign=top style='width:35.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=65 valign=top style='width:32.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>____<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->____</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=69 valign=top style='width:34.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=73 valign=top style='width:36.45pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__</p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:11'>
@@ -4908,17 +5070,15 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <p class=MsoNormal style='line-height:105%'>_______</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'>__</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
@@ -4926,14 +5086,13 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <td width=71 valign=top style='width:35.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=65 valign=top style='width:32.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>____<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->____</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=69 valign=top style='width:34.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=73 valign=top style='width:36.45pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__</p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:12'>
@@ -4941,17 +5100,15 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <p class=MsoNormal style='line-height:105%'>_______</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'>__</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
@@ -4959,14 +5116,13 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <td width=71 valign=top style='width:35.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=65 valign=top style='width:32.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>____<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->____</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=69 valign=top style='width:34.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=73 valign=top style='width:36.45pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__</p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:13'>
@@ -4974,17 +5130,15 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <p class=MsoNormal style='line-height:105%'>_______</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'>__</p>
   </td>
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
@@ -4992,21 +5146,19 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <td width=71 valign=top style='width:35.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=65 valign=top style='width:32.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>____<o:p></o:p></p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->____</p>
   </td>
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
   <td width=69 valign=top style='width:34.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=73 valign=top style='width:36.45pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>__</p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->__</p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:14'>
   <td width=120 valign=top style='width:60.15pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
+<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
@@ -5016,7 +5168,8 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
   <td width=67 valign=top style='width:33.7pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
 <!-- � Some trash from MS -->
   <td width=205 colspan=3 valign=top style='width:102.65pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>Total Credits: </p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->Total
+  Credits: </p>
   </td>
   <td width=65 valign=top style='width:32.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
   <p class=MsoNormal style='line-height:105%'>____</p>
@@ -5030,12 +5183,11 @@ X<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some tra
  </tr>
  <tr style='mso-yfti-irow:15;mso-yfti-lastrow:yes'>
   <td width=120 valign=top style='width:60.15pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->
   <td width=68 valign=top style='width:33.75pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'></td>
-<!-- � Some trash from MS -->
+<!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->
   <td width=475 colspan=7 valign=top style='width:237.5pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
-  <p class=MsoNormal style='line-height:105%'>Divide the Total Quality Points
-  by Total Credits</p>
+  <p class=MsoNormal style='line-height:105%'><!-- � Some trash from MS -->Divide
+  the Total Quality Points by Total Credits</p>
   </td>
   <td width=65 valign=top style='width:32.25pt;padding:5.0pt 5.0pt 5.0pt 5.0pt'>
   <p class=MsoNormal style='line-height:105%'>=</p>
@@ -5109,15 +5261,15 @@ teachers who teach the course etc.).</p>
 
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
-<p class=MsoNormal><!-- � Some trash from MS -->We break up the groups of
-main courses as follows: a math/science group, a computer science/math group, a
+<p class=MsoNormal><!-- � Some trash from MS -->We break up the groups of main
+courses as follows: a math/science group, a computer science/math group, a
 history/writing group, and an art group.</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal>(Note: AP courses prepare you for the AP test with AP
-standing for Advanced Placement while AT courses- Advanced Topics often also
-prepare you for AP tests but not always)</p>
+standing for Advanced Placement while AT courses- Advanced Topics often also prepare
+you for AP tests but not always)</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
@@ -5412,8 +5564,8 @@ this- use the program of studies to find the best art courses)</p>
 how you can take each of these advanced courses we have listed above is by
 looking them up in the program of studies and seeing what the prerequisites (a
 fancy word for the courses you need to take before you take the desired
-advanced one) are. Then, you can look at the prerequisites for those prerequisites
-so you know the path you follow. </u></b></p>
+advanced one) are. Then, you can look at the prerequisites for those
+prerequisites so you know the path you follow. </u></b></p>
 
 <p class=MsoNormal style='text-indent:.5in'>Here<!-- � Some trash from MS -->�s
 the link to download it and other useful info: (<a
@@ -5452,9 +5604,8 @@ taken algebra II) &gt; AP <span class=SpellE>Chem</span></p>
 
 <p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in'>4.<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Physics Honors (requires you to be taking pre-calculus- which
-practically means you need to skip math courses to take this course early) &gt;
-AT Physics</p>
+</span>Physics Honors (requires you to be taking pre-calculus- which practically
+means you need to skip math courses to take this course early) &gt; AT Physics</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
@@ -5543,8 +5694,8 @@ very kind grader.</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
-<p class=MsoNormal style='text-indent:.5in'>However, as you will find if you use
-these two website links above- you will see you need to take courses in the
+<p class=MsoNormal style='text-indent:.5in'>However, as you will find if you
+use these two website links above- you will see you need to take courses in the
 summer or maybe outside of school during the school year. This next section
 called option ii explains this process.</p>
 
@@ -5618,8 +5769,8 @@ requirements here will be much more stringent than the high school
 requirements. Also, these courses are condensed and may be harder or way easier
 than the high school course they fill in for. Teachers are usually high school
 teachers and homework is at the average high school level. Grading works very
-similarly to that of normal high school courses except that there are no
-marking periods - the entire course is one big marking period.</p>
+similarly to that of normal high school courses except that there are no marking
+periods - the entire course is one big marking period.</p>
 
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
@@ -5633,9 +5784,9 @@ your success by the school.</p>
 
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->If
 you are taking the course over the summer, you can sign up for the course after
-it during the school year. However, since scheduling is done by May, the courses
-you have signed up for as inputted as if you did not take the course. Do not
-worry. When you pass the course, your schedule will be updated.</p>
+it during the school year. However, since scheduling is done by May, the
+courses you have signed up for as inputted as if you did not take the course.
+Do not worry. When you pass the course, your schedule will be updated.</p>
 
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
@@ -5707,8 +5858,8 @@ Routes<!-- � Some trash from MS -->- see table of contents </u></b></p>
 <p class=MsoNormal>&nbsp;</p>
 
 <h3><a name=h.8b2kejkp50mq></a><span style='font-family:"Courier New";
-mso-fareast-font-family:"Times New Roman"'>Course Requirements/ Graduation Requirements</span><span
-style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h3>
+mso-fareast-font-family:"Times New Roman"'>Course Requirements/ Graduation
+Requirements</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h3>
 
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->To
 graduate high school, the state requires you to have taken certain courses.
@@ -5930,8 +6081,8 @@ that help you study. </p>
 
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->Projects
 are slightly different as you are given much more time and may even be assigned
-homework. Projects vary greatly, but always put in your best effort to assure your
-A. Also, start early here as well. Time is of the essence.</p>
+homework. Projects vary greatly, but always put in your best effort to assure
+your A. Also, start early here as well. Time is of the essence.</p>
 
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
@@ -5966,8 +6117,8 @@ marking periods as you can then work hard to bring your grade up.</p>
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->If
-you feel that you will not get an A for that course and need not take the course,
-you can drop out of it. This would have to be done in the <b><i><span
+you feel that you will not get an A for that course and need not take the
+course, you can drop out of it. This would have to be done in the <b><i><span
 style='font-size:18.0pt;line-height:115%'>first two full weeks of school</span></i></b>.
 Colleges do not see this, but note that switching depends on spaces in the
 course you would switch to (you always need to be in a certain number of
@@ -5983,8 +6134,8 @@ for this.</p>
 
 <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>1.<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Read the relevant chapters in the textbook and take thoughtful, not-
-just copying things down verbatim, notes of the chapter (emphasizing key ideas,
+</span>Read the relevant chapters in the textbook and take thoughtful, not- just
+copying things down verbatim, notes of the chapter (emphasizing key ideas,
 making connections between sections and summarizing the sections of the
 chapter)</p>
 
@@ -6016,8 +6167,8 @@ especially the material you got wrong</p>
 <p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in'><span
 class=GramE>a</span>.<span style='font-size:7.0pt;line-height:115%;font-family:
 "Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span>if you see your scores
-are high for a few sections, briefly review those areas and do a few problems on
-those areas</p>
+are high for a few sections, briefly review those areas and do a few problems
+on those areas</p>
 
 <p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in'><span
 class=GramE>b</span>.<span style='font-size:7.0pt;line-height:115%;font-family:
@@ -6060,16 +6211,16 @@ style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
 show yourself as exceptionally talented in a particular field, you would
 partake in competitions. This will bolster your college application as you
 would stand out as more committed and high-achieving within your field. All
-competitions offer awards. They will rank you and higher rankings are universally
-better. Winning in a competition over a larger area is also better regardless
-of field. Note that it is valuable to be highly ranked, not have merely
-participated in various competitions - it is quality not quantity, it is better
-being within the top ten once instead of in the top 100 five times. Also, be <span
-class=GramE>very</span> focused here and only compete where it is relevant to
-your interests. College would prefer this and you will have a higher chance of
-success. Look for the details of competitions within your field of interest as
-prestige also matters - the competition should have a notable name and be a
-trustworthy one, not a smaller unknown one.</p>
+competitions offer awards. They will rank you and higher rankings are
+universally better. Winning in a competition over a larger area is also better
+regardless of field. Note that it is valuable to be highly ranked, not have
+merely participated in various competitions - it is quality not quantity, it is
+better being within the top ten once instead of in the top 100 five times.
+Also, be <span class=GramE>very</span> focused here and only compete where it
+is relevant to your interests. College would prefer this and you will have a
+higher chance of success. Look for the details of competitions within your
+field of interest as prestige also matters - the competition should have a
+notable name and be a trustworthy one, not a smaller unknown one.</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
@@ -6113,7 +6264,7 @@ style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nb
 <p class=MsoNormal style='margin-left:2.0in;text-indent:-.25in'>&#9679;<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span><span class=GramE>this</span> is the highest math competition in the
-world for high <span class=SpellE>schoolers</span></p>
+world for high schoolers</p>
 
 <p class=MsoNormal style='margin-left:2.0in;text-indent:-.25in'>&#9679;<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -6283,8 +6434,8 @@ online courses</span></p>
 <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'><span
 style='font-family:"Times New Roman",serif'>2.</span><span style='font-size:
 7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span><span style='font-family:"Times New Roman",serif'>Go to math club and
-inquire about the competitions they support/ help you train for</span></p>
+</span><span style='font-family:"Times New Roman",serif'>Go to math club and inquire
+about the competitions they support/ help you train for</span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman",serif'>&nbsp;</span></p>
 
@@ -6302,8 +6453,7 @@ style='font-family:"Times New Roman",serif'>2.</span><span style='font-size:
 7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span><span class=GramE><span style='font-family:"Times New Roman",serif'>for</span></span><span
 style='font-family:"Times New Roman",serif'> physics look at the <span
-class=SpellE>aops</span> website<!-- � Some trash from MS -->s competitions:
-http://www.artofproblemsolving.com/community/c3158_usa_contests</span></p>
+class=SpellE>aops</span> website<!-- � Some trash from MS -->s competitions: http://www.artofproblemsolving.com/community/c3158_usa_contests</span></p>
 
 <p class=MsoNormal><span style='font-family:"Times New Roman",serif'>The Rest:</span></p>
 
@@ -6392,9 +6542,8 @@ be ready. Also be mature and at your best.</p>
 
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->Note
 that if you do not come by either of these chances, but still desire to work,
-many fast food chains and stores hire high <span class=SpellE>schoolers</span>.
-This may not bolster your college application, but does provide valuable
-experiences in adult life.</p>
+many fast food chains and stores hire high schoolers. This may not bolster your
+college application, but does provide valuable experiences in adult life.</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
@@ -6410,15 +6559,13 @@ experiences in adult life.</p>
 mso-fareast-font-family:"Times New Roman"'>Standardized Tests</span><span
 style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
 
-<!-- <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->
-
 <p class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
-"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:windowtext'>Some
+"Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:windowtext'><!-- <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->Some
 trash from MS --&gt; <o:p></o:p></span></p>
 
-<p class=MsoNormal><b>In this section we will first explain the basic
-standardized tests, the logistics (where you take them, how you send them
-etc.), what the scores mean and finally how to actually get high scores.</b></p>
+<p class=MsoNormal><b>In this section we will first explain the basic standardized
+tests, the logistics (where you take them, how you send them etc.), what the
+scores mean and finally how to actually get high scores.</b></p>
 
 <p class=MsoNormal>&nbsp;</p>
 
@@ -6480,10 +6627,10 @@ AP course and you do not need to be in an AP course to take an AP test.</p>
 
 <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>&#9679;<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>PARCC tests: You may have heard of these. You do not need to register for
-these. These state-ordained tests are an annual pain required for graduation.
-There are two rounds of testing on a computer and tests last two hours. The
-founders graduated before this test<!-- � Some trash from MS -->s
+</span>PARCC tests: You may have heard of these. You do not need to register
+for these. These state-ordained tests are an annual pain required for
+graduation. There are two rounds of testing on a computer and tests last two
+hours. The founders graduated before this test<!-- � Some trash from MS -->s
 implementation and are not well informed. <b>They are not sent to colleges- you
 just need to pass- which is super easy.</b></p>
 
@@ -6543,8 +6690,8 @@ to the SAT Subject tests.</p>
 register for the SATs and ACTs, you should make an account with
 collegeboard.org and ACT Inc. The website has a registration link where a form
 will ask about your school, age and the time and place you would like to take
-the test. You can only register for three SAT Subject Tests or the SAT at one time.
-Many local high schools are in this list: Princeton High School, Hightstown
+the test. You can only register for three SAT Subject Tests or the SAT at one
+time. Many local high schools are in this list: Princeton High School, Hightstown
 High, Robbinsville and others. It is notable that High School South has a
 reputation for being loud and somewhat distracting due to its lack of walls.
 Tests are offered fairly regularly with SATs being offered on the first weekend
@@ -6585,8 +6732,8 @@ getting your scores.</p>
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->After
-taking the SAT, ACT or SAT Subject tests, your scores will be available within
-4 to 6 weeks. More on interpreting your score later. The AP test will give you
+taking the SAT, ACT or SAT Subject tests, your scores will be available within 4
+to 6 weeks. More on interpreting your score later. The AP test will give you
 your scores in July (dates will be posted online and you will be emailed). You
 will have an AP number from pre-gridding that you will need to access these
 scores. Your <span class=SpellE>collegeboard</span> account can be used as
@@ -6649,18 +6796,18 @@ allowed and pens are usually not needed (unless you<!-- � Some trash from MS -
 taking an AP test, at which point a pen is required). Remember an eraser - a
 good, clean one; maybe two. Keep the pencils sharp (and your mind sharper) and
 carry a sharpener. If your watch makes any noise (a brief bleep on the hour,
-for instance) turn the sound off or don<!-- � Some trash from MS -->�t carry
-the watch. Do not worry about time-keeping, you can expect a working clock in
-every testing room. That clock has to be visible to you by mandate of the <span
-class=SpellE>collegeboard</span> and ACT Inc. You should carry your phone,
-especially if dropped off by parents, but leave it off throughout testing. Do
-not touch it, even during breaks. You need not carry anything else (unless you
-have classes afterwards which may happen while taking AP tests). Be sure to
-dress in layers as you will never know what climate your testing room will have
-- some are Arctic while others are sub-Saharan, regardless of the season. Also
-use the bathroom beforehand or you may end up running to the bathroom and
-perhaps (we don<!-- � Some trash from MS -->�t know) getting into trouble of
-leaving the test in a non-break time period.</p>
+for instance) turn the sound off or don<!-- � Some trash from MS -->�t
+carry the watch. Do not worry about time-keeping, you can expect a working
+clock in every testing room. That clock has to be visible to you by mandate of
+the <span class=SpellE>collegeboard</span> and ACT Inc. You should carry your
+phone, especially if dropped off by parents, but leave it off throughout
+testing. Do not touch it, even during breaks. You need not carry anything else
+(unless you have classes afterwards which may happen while taking AP tests). Be
+sure to dress in layers as you will never know what climate your testing room
+will have - some are Arctic while others are sub-Saharan, regardless of the
+season. Also use the bathroom beforehand or you may end up running to the
+bathroom and perhaps (we don<!-- � Some trash from MS -->�t know) getting
+into trouble of leaving the test in a non-break time period.</p>
 
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
@@ -6668,13 +6815,13 @@ leaving the test in a non-break time period.</p>
 entering the testing center for an SAT or ACT - usually on a Saturday morning
 by 7:45 AM at the latest - you will be asked for a photo identification and
 your registration ticket. You will then be pointed to a room. Each center has a
-slightly different process for this, but rooms and seats are assigned and
-arranged alphabetically by last name. Note that SATs and SAT Subject Tests are
-taken in different rooms. You will then see your proctor, usually a teacher at
-the high school. They will take your phone and check your calculator.
-Eventually, once the room is filled or it is past 8 AM (the time the test
-usually starts), the proctor will begin to read instructions and hand out
-materials. Pay attention and follow these.</p>
+slightly different process for this, but rooms and seats are assigned and arranged
+alphabetically by last name. Note that SATs and SAT Subject Tests are taken in
+different rooms. You will then see your proctor, usually a teacher at the high
+school. They will take your phone and check your calculator. Eventually, once
+the room is filled or it is past 8 AM (the time the test usually starts), the
+proctor will begin to read instructions and hand out materials. Pay attention
+and follow these.</p>
 
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
@@ -6762,10 +6909,10 @@ written in pencil.</p>
 AP tests are somewhat different. Instead of one test booklet, you are given
 two: one for the multiple choice and another for a free-response. The nature of
 each varies by subject and it is up to you to know. Collegeboard.org has a lot
-of useful information on this. Usually, there is a short break between the multiple-choice
-and free-response portions and each section takes around 90 minutes. A pen is
-needed for the beginning of the free-response and may also be used within the
-section.</p>
+of useful information on this. Usually, there is a short break between the
+multiple-choice and free-response portions and each section takes around 90
+minutes. A pen is needed for the beginning of the free-response and may also be
+used within the section.</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
@@ -6872,19 +7019,18 @@ junior yet, you can aim pretty high (AP scores should basically all be 5<!-- �
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->&nbsp;<span
-style='mso-tab-count:1'>���������� </span>���</p>
+style='mso-tab-count:1'>���������� </span>�������������</p>
 
-<p class=MsoNormal style='margin-left:.5in'>Now that you can determine where
-you are aiming, here is the only (that the founders are aware of) method to
-getting that high standardized test score: <i>intelligent, thoughtful </i>practice<!-- � Some trash from MS -->
+<p class=MsoNormal style='margin-left:.5in'>Now that you can determine where you
+are aiming, here is the only (that the founders are aware of) method to getting
+that high standardized test score: <i>intelligent, thoughtful </i>practice<!-- � Some trash from MS -->
 <u><span style='font-size:10.0pt;line-height:115%'>-with practice tests from
-the official SAT or ACT book as well as practice tests from Kaplan, The
-Princeton Review and Barron<!-- � Some trash from MS -->�s (look up these
-books online- or see the resources section of this document)-</span></u> with
-over 10 (at least) practice tests with lots of other practice over a period of
-a month or two <i>where you practice several times a week so that your skill
-level builds for a long period of a time instead of just practicing once in a
-while. </i></p>
+the official SAT or ACT book as well as practice tests from Kaplan, The Princeton
+Review and Barron<!-- � Some trash from MS -->�s (look up these books
+online- or see the resources section of this document)-</span></u> with over 10
+(at least) practice tests with lots of other practice over a period of a month
+or two <i>where you practice several times a week so that your skill level
+builds for a long period of a time instead of just practicing once in a while. </i></p>
 
 <p class=MsoNormal style='margin-left:.5in'><o:p>&nbsp;</o:p></p>
 
@@ -6949,17 +7095,17 @@ you are taking as well as the next ones</p>
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span>Do not think you are finished until you have scored above or at your
 goal score for the last 3 practice tests you have taken (if you are using hard
-practice tests from <span class=SpellE>barron�s</span> you can add about 80-
-110 points to your sat score (note: this range of 80-110 will change to 40-70
-in the year 2016)</p>
+practice tests from barron�s you can add about 80- 110 points to your sat
+score (note: this range of 80-110 will change to 40-70 in the year 2016)</p>
 
 <p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in'>d.<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
 </span>Many test prep books will tell you to do a lot of reading before these
 tests to prepare for the reading section. That is spot on. You should do a lot
 of reading- like 20-30 pages a day of a book for a month before the date of the
-test (and don<!-- � Some trash from MS -->�t choose an easy read- read a book
-that you would read in school like the scarlet letter, or Great Gatsby etc.). </p>
+test (and don<!-- � Some trash from MS -->�t choose an easy read- read a
+book that you would read in school like the scarlet letter, or Great Gatsby
+etc.). </p>
 
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
@@ -7020,8 +7166,8 @@ be alert, just calm)</p>
 <p class=MsoNormal style='margin-left:1.5in;text-indent:-.25in'>&#9632;<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span><span class=GramE>Be</span> focused- not
-bending-over-the-paper-and-straining-yourself focused, but maintain a relaxed,
-in control and confident focus</p>
+bending-over-the-paper-and-straining-yourself focused, but maintain a relaxed, in
+control and confident focus</p>
 
 <p class=MsoNormal style='margin-left:2.0in;text-indent:-.25in'>&#9679;<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -7061,8 +7207,8 @@ indisputable right answer</p>
 
 <p class=MsoNormal style='margin-left:2.0in;text-indent:-.25in'>&#9679;<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span><span class=GramE>If</span> there wasn<!-- � Some trash from MS -->�t,
-these test would get sued!! </p>
+</span>If there wasn<!-- � Some trash from MS -->�t, these test would get
+sued!! </p>
 
 <p class=MsoNormal style='margin-left:2.0in;text-indent:-.25in'>&#9679;<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -7301,9 +7447,9 @@ and so on that works best for you!</p>
 <p class=MsoNormal>&nbsp;</p>
 
 <p class=MsoNormal>Important Reminder: look up what super scoring is, how it
-works and if it applies to colleges you are shooting for. Also, once you know what
-it is, do not rely on super scoring for getting into a college- try to have
-high scores in all sections when you take a test. </p>
+works and if it applies to colleges you are shooting for. Also, once you know
+what it is, do not rely on super scoring for getting into a college- try to
+have high scores in all sections when you take a test. </p>
 
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
@@ -7318,9 +7464,9 @@ given on them.</p>
 
 <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>&#9679;<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>ACT Inc.<!-- � Some trash from MS -->�s Big Red ACT Book. This is the
-blue SAT book<!-- � Some trash from MS -->s cousin. It has only 6 practice
-tests.</p>
+</span>ACT Inc.<!-- � Some trash from MS -->�s Big Red ACT Book. This is
+the blue SAT book<!-- � Some trash from MS -->s cousin. It has only 6
+practice tests.</p>
 
 <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>&#9679;<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -7398,9 +7544,9 @@ giving up) and hard work. </p>
 mso-fareast-font-family:"Times New Roman"'>Extracurriculars</span></span><span
 style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
 
-<p class=MsoNormal>This section has four subsections: After School Clubs, Sports,
-Volunteering, and Jobs. We explain how important each is depending on your
-specific college goals and the nature of each activity itself. </p>
+<p class=MsoNormal>This section has four subsections: After School Clubs,
+Sports, Volunteering, and Jobs. We explain how important each is depending on
+your specific college goals and the nature of each activity itself. </p>
 
 <h3><a name=h.zxqt968xwbz></a><span style='font-family:"Courier New";
 mso-fareast-font-family:"Times New Roman"'>After School Clubs</span><span
@@ -7465,8 +7611,8 @@ short, start trying for leadership and working hard at a club very early). </p>
 is possible to make your own club. Colleges love it if you can make a
 successful club that goes to competitions and attracts a lot of members.
 However, this is very hard to do and most new clubs fail horribly because the
-founders don<!-- � Some trash from MS -->�t have enough time or willpower to
-make the club thrive. <o:p></o:p></p>
+founders don<!-- � Some trash from MS -->�t have enough time or willpower
+to make the club thrive. <o:p></o:p></p>
 
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->Here
 is how to do so. Call the school or ask your guidance counselor for club
@@ -7521,8 +7667,15 @@ style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nb
 
 <p class=MsoNormal style='margin-left:1.0in;text-indent:-.25in'>&#9675;<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span><span class=GramE>kind</span> of like debate but much more about people
-skills and getting people to listen to you</p>
+</span><span class=GramE>The</span> concept is to lead a group of people to
+implement a solution to a world problem, pretending to be the UN.</p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;text-indent:-.25in;
+mso-list:l0 level1 lfo2'><![if !supportLists]><span class=MsoHyperlink><span
+style='font-family:"Courier New";mso-fareast-font-family:"Courier New";
+text-decoration:none;text-underline:none'><span style='mso-list:Ignore'>o<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span></span></span><![endif]><a
+href="SouthMUNDebunked.htm">Click here for more.<o:p></o:p></a></p>
 
 <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>&#9679;<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -7608,9 +7761,9 @@ make up the bulk of your application. It depends on your own performance.</p>
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->Colleges
 care about skill, not variety. Being the best at one sport is more important
 than mediocrity in five. Skill will be measured by your performance at games
-and your record with the coaches. You coach may recommend you to colleges if not
-their coaches themselves. This is notably important, especially in liberal arts
-schools.</p>
+and your record with the coaches. You coach may recommend you to colleges if
+not their coaches themselves. This is notably important, especially in liberal
+arts schools.</p>
 
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
@@ -7872,9 +8025,9 @@ underprivileged children through a variety of tutoring programs or non-profits.<
 as we explained in the <!-- � Some trash from MS -->What Colleges Look For<!-- � Some trash from MS -->
 and <!-- � Some trash from MS -->What Colleges Dislike<!-- � Some trash from MS -->
 sections, colleges want to see a long term commitment to some type of
-volunteering rather than a soulless scattering of activities that are only related
-by the detail that all the various volunteering opportunities were convenient
-for you.<!-- � Some trash from MS --> </p>
+volunteering rather than a soulless scattering of activities that are only
+related by the detail that all the various volunteering opportunities were
+convenient for you.<!-- � Some trash from MS --> </p>
 
 <p class=MsoNormal style='text-indent:.5in'>Here<!-- � Some trash from MS -->�s
 a list of volunteering opportunities:</p>
@@ -7945,8 +8098,8 @@ teacher may be a more useful recommender.</p>
 
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->A
 few common workplaces are Mrs. Green<!-- � Some trash from MS -->s and <span
-class=SpellE>Yogo</span> Factory (just look them up). This is only to be pursued
-if you are interested. The brevity of this section should reflect jobs<!-- � Some trash from MS -->
+class=SpellE>Yogo</span> Factory (just look them up). This is only to be
+pursued if you are interested. The brevity of this section should reflect jobs<!-- � Some trash from MS -->
 relative importance in the college application.</p>
 
 <p class=MsoNormal>&nbsp;</p>
@@ -8064,10 +8217,10 @@ like the SAT or ACT</p>
 
 <p class=MsoNormal style='margin-left:1.5in;text-indent:-1.5in'><span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span><span class=SpellE><span class=GramE>i</span></span>.<span
-style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>we<!-- � Some trash from MS -->�ve already talked about when you need
-to study- a month continuously or more up to the test date</p>
+</span><span class=SpellE>i</span>.<span style='font-size:7.0pt;line-height:
+115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span>we<!-- � Some trash from MS -->�ve already talked about when you
+need to study- a month continuously or more up to the test date</p>
 
 <p class=MsoNormal style='margin-left:1.5in;text-indent:-1.5in'><span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -8078,9 +8231,9 @@ challenging courses etc.) so it is best to</p>
 
 <p class=MsoNormal style='margin-left:2.0in;text-indent:-.25in'>1.<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span>The summer before the school year starts plan out which months you will
-focus on the SAT, which months you will focus on competitions and which months
-you will focus on the AP tests...</p>
+</span>The summer before the school year starts plan out which months you will focus
+on the SAT, which months you will focus on competitions and which months you
+will focus on the AP tests...</p>
 
 <p class=MsoNormal style='margin-left:1.5in;text-indent:-1.5in'><span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -8134,9 +8287,9 @@ style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nb
 </span>ii.<span style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span><span class=GramE>you</span> can also go to private guidance counselors
 (like admissions navigator: <a href="http://admissionsnavigator.com/"><span
-style='color:#1155CC'>http://admissionsnavigator.com/</span></a>) to help you
-write your common app (or called common application) and a few applications to
-a college (this is pretty helpful- but will cost you some money obviously)</p>
+style='color:#1155CC'>http://admissionsnavigator.com/</span></a>) to help you write
+your common app (or called common application) and a few applications to a
+college (this is pretty helpful- but will cost you some money obviously)</p>
 
 <p class=MsoNormal style='margin-left:.5in;text-indent:-.25in'>5.<span
 style='font-size:7.0pt;line-height:115%;font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;
@@ -8160,10 +8313,10 @@ internship or research. </p>
 
 <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif'>***
 Note: This is very vague information because the timing of activities really
-depends on the specific person. The best way to really get a feel for the timing
-is by looking at example of real people and how they have managed courses,
-standardized tests, clubs, athletics and, competitions over the years. <b>See
-the section: <!-- � Some trash from MS -->Case Studies<!-- � Some trash from MS -->
+depends on the specific person. The best way to really get a feel for the
+timing is by looking at example of real people and how they have managed
+courses, standardized tests, clubs, athletics and, competitions over the years.
+<b>See the section: <!-- � Some trash from MS -->Case Studies<!-- � Some trash from MS -->
 to get specific examples. </b>***</span></i></p>
 
 <p class=MsoNormal><i><span style='font-family:"Times New Roman",serif'>&nbsp;</span></i></p>
@@ -8298,8 +8451,8 @@ way, you will never miss anything in any way.</p>
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->Companies
-post internships regularly. Research and links to professors are everywhere.
-The internet is there for you.</p>
+post internships regularly. Research and links to professors are everywhere. The
+internet is there for you.</p>
 
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
@@ -8362,8 +8515,8 @@ or <span class=SpellE>ivywise</span>: <a href="http://www.ivywise.com/"><span
 style='color:#1155CC'>http://www.ivywise.com/</span></a> for <!-- � Some trash from MS -->real
 guidance<!-- � Some trash from MS -->. These people are very expensive, but
 have a high reliability in delivering results. Don<!-- � Some trash from MS -->�t
-worry if you can<!-- � Some trash from MS -->�t afford it, with hard work and
-close reading of this document, you can do absolutely great!</p>
+worry if you can<!-- � Some trash from MS -->�t afford it, with hard work
+and close reading of this document, you can do absolutely great!</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
@@ -8372,16 +8525,17 @@ close reading of this document, you can do absolutely great!</p>
 <p class=MsoNormal>&nbsp;<o:p></o:p></p>
 
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->High
-school <span class=SpellE>gc<!-- � Some trash from MS -->s</span> have a tendency
-to discourage students from taking challenging courses and many who have
-listened have ended up taking courses that are way too easy for them. We do not
-understand why this happens, but must warn against it: do not be fooled by your
-counsellor. If you think that you are capable, take the challenge. Do not stop
-because of a stranger. They may know the system, but they do not know you. And,
-if you pay attention in class, you will know the system as well. Enforce your
-will when scheduling. There is little the GC can do to stop you. Then, the only
-person stopping you would be yourself. Please never listen to their <!-- � Some trash from MS -->advice<!-- � Some trash from MS -->
-on not taking honors or AP courses! </p>
+school <span class=SpellE>gc<!-- � Some trash from MS -->s</span> have a
+tendency to discourage students from taking challenging courses and many who
+have listened have ended up taking courses that are way too easy for them. We
+do not understand why this happens, but must warn against it: do not be fooled
+by your counsellor. If you think that you are capable, take the challenge. Do
+not stop because of a stranger. They may know the system, but they do not know
+you. And, if you pay attention in class, you will know the system as well.
+Enforce your will when scheduling. There is little the GC can do to stop you.
+Then, the only person stopping you would be yourself. Please never listen to
+their <!-- � Some trash from MS -->advice<!-- � Some trash from MS --> on
+not taking honors or AP courses! </p>
 
 <p class=MsoNormal>&nbsp;</p>
 
@@ -8420,8 +8574,8 @@ most Asians apply to schools with a reasonable stem focus and good scores. As a
 result, because schools compare students of similar ethnicities (to get a good
 mix or diverse student body), Asians need to be more competitive than non-
 Asians to get into great schools. However, we have accounted for this on the
-lists in <span class=GramE>the <!-- � Some trash from MS -->what</span> colleges
-look for<!-- � Some trash from MS --> section so if you follow that
+lists in <span class=GramE>the <!-- � Some trash from MS -->what</span>
+colleges look for<!-- � Some trash from MS --> section so if you follow that
 reasonable you are fine. For non-Asians, you have it easier at low hidden ivies
 but your race actually make very little difference at the top level- the Ivy
 League and up. </p>
@@ -8429,19 +8583,19 @@ League and up. </p>
 <p class=MsoNormal>&nbsp;</p>
 
 <h2><a name=h.oy5ftmgnj7ok></a><span style='font-family:"Courier New";
-mso-fareast-font-family:"Times New Roman"'>Pursuit of Passion / Vanity of College
-Competitiveness</span><a name=h.te8mn9kqli3j></a><span style='mso-fareast-font-family:
-"Times New Roman"'><o:p></o:p></span></h2>
+mso-fareast-font-family:"Times New Roman"'>Pursuit of Passion / Vanity of
+College Competitiveness</span><a name=h.te8mn9kqli3j></a><span
+style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
 
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->We
 included this section mainly to say that we don<!-- � Some trash from MS -->�t
 want you to use this document as a forceful checklist to just accomplish things
-to get into a good college. That seems soulless and disturbing- we, the founders
-have met these people in person and have seen how hollow they are, how they
-only care about getting into a college that will land them a high paying job. <span
-class=SpellE>It<!-- � Some trash from MS -->s</span> like their entire life
-revolves around money and they have few meaningful human relationships.<!-- � Some trash from MS -->
-<o:p></o:p></p>
+to get into a good college. That seems soulless and disturbing- we, the
+founders have met these people in person and have seen how hollow they are, how
+they only care about getting into a college that will land them a high paying
+job. <span class=SpellE>It<!-- � Some trash from MS -->s</span> like their
+entire life revolves around money and they have few meaningful human
+relationships.<!-- � Some trash from MS --> <o:p></o:p></p>
 
 <p class=MsoNormal><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS --><!-- � Some trash from MS -->Anyway,
 the point is, develop who you are as a person and go after your interests
@@ -8481,9 +8635,8 @@ EVERYONE WHO YOU THINK IS SMART WORKED VERY HARD TO GET THERE. </p>
 <p class=MsoNormal>&nbsp;</p>
 
 <h2><a name=h.eafk6sk33tn></a><span style='font-family:"Courier New";
-mso-fareast-font-family:"Times New Roman"'>No Stress Involved- based on <span
-class=GramE>One<!-- � Some trash from MS -->�s</span> Mentality</span><span
-style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
+mso-fareast-font-family:"Times New Roman"'>No Stress Involved- based on One<!-- � Some trash from MS -->�s
+Mentality</span><span style='mso-fareast-font-family:"Times New Roman"'><o:p></o:p></span></h2>
 
 <p class=MsoNormal>&nbsp;</p>
 
@@ -8493,9 +8646,9 @@ feeing like they <b>have to</b> do something critical to their entire life, and
 something serious is happening in their life that puts great responsibility on
 them making a large fear set in of getting into a bad college and going nowhere
 in life while people around you get into ivy leagues and so on. First of all,
-there are thousands of people who don<!-- � Some trash from MS -->�t get into
-Rutgers and there are so many Rutgers grads that have done so well. Know that
-80% our school gets into Rutgers- you can coast if you want to. <o:p></o:p></p>
+there are thousands of people who don<!-- � Some trash from MS -->�t get
+into Rutgers and there are so many Rutgers grads that have done so well. Know
+that 80% our school gets into Rutgers- you can coast if you want to. <o:p></o:p></p>
 
 <p class=MsoNormal style='text-indent:.5in'><!-- � Some trash from MS -->Know
 that, yes, the process is a little stressful and impacts your life deeply but
@@ -8539,6 +8692,8 @@ from school because you like a topic, is incredibly fun! </p>
 
 <div>
 
+<div>
+
 <div class=MsoNormal><span style='font-size:12.0pt;line-height:115%;font-family:
 "Times New Roman",serif;mso-fareast-font-family:"Times New Roman";color:windowtext'>
 
@@ -8546,6 +8701,8 @@ from school because you like a topic, is incredibly fun! </p>
 
 </span></div>
 
+</div>
+<!-- These are the document's comments...
 <div>
 
 <div language=JavaScript onmouseover="msoCommentShow('_anchor_1','_com_1')"
@@ -8593,12 +8750,10 @@ self: provide clearer example sometime later.</p>
 </div>
 
 </div>
-
+-->
 </div>
 
-</div>
-
-    <script language=JavaScript>
+<p class=MsoNormal style='line-height:normal'><script language="JavaScript">
         function MSToHTML(text){
             var s = text;
             // smart single quotes and apostrophe
@@ -8623,7 +8778,10 @@ self: provide clearer example sometime later.</p>
         }
 
         document.body.innerHTML = MSToHTML(document.body.innerHTML);
-    </script>
+</script><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+mso-fareast-font-family:"Times New Roman";color:windowtext'><o:p>&nbsp;</o:p></span></p>
+
+</div>
 
 </body>
 
