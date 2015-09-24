@@ -59,7 +59,7 @@
     "type": "extracurricular 1",
     "time": 2,
     "desc": "You should explore some clubs, but focus on studies. Try to find your interests.",
-    "link": "web/web/full_page.htm#h.zxqt968xwbz",
+    "link": "web/full_page.htm#h.zxqt968xwbz",
     "name": "Possible Clubs",
     "duration": 10
   },
@@ -69,7 +69,7 @@
     "duration": 2,
     "name": "summer course",
     "desc": "A possible summer course.",
-    "link": "web/web/full_page.htm#h.75ovsc2tizkc"
+    "link": "web/full_page.htm#h.75ovsc2tizkc"
   },
   {
     "type": "grade level",
