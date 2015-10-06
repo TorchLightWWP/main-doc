@@ -7,10 +7,10 @@
         <link rel="stylesheet" type="text/css" href="web/index_files/indexstyle.css"></link>
     </head>
 
-    <body>
-        <div ng-app="timingApp">
-            <div ng-controller="graphDisp" class="container">
-                <div ng-repeat="(k, v) in types" class="lBar" ng-style="lBarStyle(v)">
+    <body ng-app="timingApp">
+        <div ng-controller="graphDisp">
+            <div class="container">
+                <div ng-repeat="(k, v) in types" class="lBar" ng-style="lBarStyle(v)" ng-click="hideDesc()">
                     {{k}}
                 </div>
                 <div ng-repeat="g in graph" ng-class="g.type" ng-style="getStyle(g)" ng-click="showDesc(g.desc,g.link,$event)">
